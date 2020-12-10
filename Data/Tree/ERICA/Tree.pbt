@@ -1947,7 +1947,7 @@ Objects {
     }
     AudioBP {
       Pitch: -54.0695801
-      Volume: 8.67078495
+      Volume: 1.01963639
       Falloff: 3600
       Radius: 400
       EnableOcclusion: true
@@ -2394,11 +2394,12 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -2263.19897
-      Y: -571.967285
+      X: -2356.98755
+      Y: 183.861328
       Z: 133.961456
     }
     Rotation {
+      Yaw: -33.0111084
     }
     Scale {
       X: 1.12815678
@@ -2442,10 +2443,11 @@ Objects {
   Transform {
     Location {
       X: -1459.59509
-      Y: -161.692627
+      Y: 90.0966797
       Z: 133.961639
     }
     Rotation {
+      Yaw: -33.0111084
     }
     Scale {
       X: 1.27937198
@@ -2488,11 +2490,12 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -1843.06299
-      Y: -372.188232
+      X: -1895.8363
+      Y: 122.49707
       Z: 133.961456
     }
     Rotation {
+      Yaw: -33.0111084
     }
     Scale {
       X: 1
@@ -3015,9 +3018,9 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -1459.59509
-      Y: -161.692627
-      Z: 133.961639
+      X: -1324.5177
+      Y: 126.078857
+      Z: 133.96167
     }
     Rotation {
     }
@@ -3062,9 +3065,9 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -1843.06299
-      Y: -372.188232
-      Z: 133.961456
+      X: -1856.20093
+      Y: -205.53833
+      Z: 133.961487
     }
     Rotation {
     }
