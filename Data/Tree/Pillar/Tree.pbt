@@ -153,8 +153,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -162,9 +162,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -230,8 +230,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -239,9 +239,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -365,8 +365,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -374,9 +374,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -442,8 +442,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -451,9 +451,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -545,8 +545,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -554,9 +554,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -622,8 +622,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -631,9 +631,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -758,8 +758,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -767,9 +767,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -914,8 +914,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -923,9 +923,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1126,8 +1126,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1135,9 +1135,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1203,8 +1203,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1212,9 +1212,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1576,8 +1576,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1585,9 +1585,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1653,8 +1653,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1662,9 +1662,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1757,8 +1757,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1766,9 +1766,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1834,8 +1834,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1843,9 +1843,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -1972,8 +1972,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -1981,9 +1981,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -2049,8 +2049,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -2058,9 +2058,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -2124,8 +2124,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -2133,9 +2133,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -2201,8 +2201,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
+        R: 1
+        G: 1
         B: 1
         A: 1
       }
@@ -2210,9 +2210,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }

@@ -88,7 +88,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9691585235102710834
+              Id: 10733459377688461015
             }
           }
         }
@@ -230,7 +230,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7294257142930289130
+              Id: 7022405878021171375
             }
           }
           Overrides {
@@ -240,11 +240,17 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0854492262
-              G: 0.444383264
-              B: 0.46875
+              R: 0.25
               A: 1
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.383998781
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.440650165
           }
         }
         Collidable_v2 {
@@ -889,21 +895,21 @@
       }
     }
     Assets {
-      Id: 9691585235102710834
-      Name: "Metal Iron 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
-      }
-    }
-    Assets {
       Id: 10779001228347641714
       Name: "Pipe"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_pipe_001"
+      }
+    }
+    Assets {
+      Id: 9691585235102710834
+      Name: "Metal Iron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_001"
       }
     }
     Assets {
@@ -934,12 +940,12 @@
       }
     }
     Assets {
-      Id: 7294257142930289130
-      Name: "Wallpaper Chevron 01"
+      Id: 7022405878021171375
+      Name: "Leather Tufted 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_wallpaper_004"
+        AssetId: "mi_fabric_tufted_001_uv_ref"
       }
     }
     Assets {

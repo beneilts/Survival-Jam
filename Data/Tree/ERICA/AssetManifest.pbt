@@ -8,39 +8,12 @@
   }
 }
 Assets {
-  Id: 18292448005538599011
-  Name: "Part - Pillar Small Mainstreet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_part_pillar_small_01_ref"
-  }
-}
-Assets {
-  Id: 18224135063442857610
-  Name: "Whitebox Stairs 01 Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001"
-  }
-}
-Assets {
   Id: 17616555706524180168
   Name: "Fantasy Pommel 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_fan_pommel_002"
-  }
-}
-Assets {
-  Id: 17280976981586363031
-  Name: "Corrugated Sheet Tall"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
   }
 }
 Assets {
@@ -62,30 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16931630116077975102
-  Name: "Pillar 01 Mainstreet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_pillar_001_ref"
-  }
-}
-Assets {
   Id: 16829097218148610151
   Name: "Sci-fi Chest Epic Lid 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_crate_lid_001_ref"
-  }
-}
-Assets {
-  Id: 16804522484737595633
-  Name: "Pipe - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_002"
   }
 }
 Assets {
@@ -134,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15470839508926973168
-  Name: "Sphere - Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hemisphere_001"
-  }
-}
-Assets {
   Id: 15274591245069974323
   Name: "Ring - Quarter Thin"
   PlatformAssetType: 1
@@ -179,30 +125,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14315438354786539606
-  Name: "Marble Tiles Square 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_marble_tiles_002_uv"
-  }
-}
-Assets {
   Id: 14310296446248193905
   Name: "Gem - Diamond 6-Sided Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_diamond_6_sided_polished_001"
-  }
-}
-Assets {
-  Id: 14237220486008111868
-  Name: "Knife - Blade"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_knife_001"
   }
 }
 Assets {
@@ -233,15 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13332127621427464115
-  Name: "Stone Basic"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "stone_001"
-  }
-}
-Assets {
   Id: 13085174305471638229
   Name: "Metal Painted Old 01"
   PlatformAssetType: 2
@@ -257,15 +176,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_test_001"
-  }
-}
-Assets {
-  Id: 12755745315329926573
-  Name: "Cone - Truncated Hollow"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_hollow_001"
   }
 }
 Assets {
@@ -296,15 +206,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12589698415994353714
-  Name: "Bone Human Skull 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_skull_01_ref"
-  }
-}
-Assets {
   Id: 12568857689836871904
   Name: "Ceramic Terracotta Pots 01"
   PlatformAssetType: 2
@@ -329,42 +230,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_smoke_volume_vfx"
-  }
-}
-Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
-  Id: 11896420945063946518
-  Name: "Cube - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_002"
-  }
-}
-Assets {
-  Id: 11432757413629880707
-  Name: "Whitebox Wall 01 Triangle - Inverted"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_triInverted"
-  }
-}
-Assets {
-  Id: 11246720519946599323
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
   }
 }
 Assets {
@@ -413,15 +278,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10266917324539904248
-  Name: "Crescent - 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crescent_003"
-  }
-}
-Assets {
   Id: 10184847056121543272
   Name: "Basic Material"
   PlatformAssetType: 2
@@ -449,75 +305,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8898705476164105834
-  Name: "Fantasy Human Gal 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_001_ref"
-  }
-}
-Assets {
-  Id: 8364690650117592334
-  Name: "Crescent - 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crescent_002"
-  }
-}
-Assets {
   Id: 8155994152759289014
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
-  Id: 7757866143058981948
-  Name: "Cube - Arched"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_arched_001"
-  }
-}
-Assets {
-  Id: 7754470856388882901
-  Name: "Wood Raw"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_raw_001_uv"
-  }
-}
-Assets {
-  Id: 7732336536218767972
-  Name: "Whitebox Wall 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001"
-  }
-}
-Assets {
-  Id: 7283825798727192743
-  Name: "Metal Iron Rusted 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
-  }
-}
-Assets {
-  Id: 7202307395712524294
-  Name: "Decal Dirt Patch"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_dirt_patch_001"
   }
 }
 Assets {
@@ -611,15 +404,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3998592366905403415
-  Name: "Glass 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
-  }
-}
-Assets {
   Id: 3741331023507380789
   Name: "Cone - Truncated Wide"
   PlatformAssetType: 1
@@ -656,15 +440,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2109171717265978118
-  Name: "Tech Panel 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_002_uv"
-  }
-}
-Assets {
   Id: 2029515409028393758
   Name: "Hill 05"
   PlatformAssetType: 1
@@ -683,15 +458,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1474317466637388472
-  Name: "Knife - Handle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_knife_handle_001"
-  }
-}
-Assets {
   Id: 1189657888416972790
   Name: "Sci-fi Chest Rare Base 01"
   PlatformAssetType: 1
@@ -707,15 +473,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_grates_005_uv"
-  }
-}
-Assets {
-  Id: 916665379155427451
-  Name: "Capsule"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_capsule_001"
   }
 }
 Assets {

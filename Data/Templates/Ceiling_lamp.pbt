@@ -4,22 +4,22 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12004379690236175316
+      RootId: 15452024742124965091
       Objects {
-        Id: 12004379690236175316
+        Id: 15452024742124965091
         Name: "Ceiling_lamp"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.388026744
+            Y: 0.388026744
+            Z: 0.388026744
           }
         }
-        ParentId: 17284855810512768652
-        ChildIds: 1725140665191826626
-        ChildIds: 16706266154597426129
-        ChildIds: 825944866424928306
-        ChildIds: 7532972176017799589
+        ParentId: 3737350778849256599
+        ChildIds: 6523420203549353765
+        ChildIds: 6037882408445626256
+        ChildIds: 16556265402954687415
+        ChildIds: 8210581645942767481
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -31,7 +31,7 @@
         }
       }
       Objects {
-        Id: 1725140665191826626
+        Id: 6523420203549353765
         Name: "Sphere - Half Thick"
         Transform {
           Location {
@@ -47,7 +47,7 @@
             Z: 0.305259079
           }
         }
-        ParentId: 12004379690236175316
+        ParentId: 15452024742124965091
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -58,9 +58,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.701655626
-              B: 0.470000029
+              R: 0.170600384
+              G: 0.171875
+              B: 0.133382171
               A: 1
             }
           }
@@ -87,7 +87,7 @@
         }
       }
       Objects {
-        Id: 16706266154597426129
+        Id: 6037882408445626256
         Name: "Cone - Truncated"
         Transform {
           Location {
@@ -102,7 +102,7 @@
             Z: 0.371791035
           }
         }
-        ParentId: 12004379690236175316
+        ParentId: 15452024742124965091
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -137,7 +137,7 @@
         }
       }
       Objects {
-        Id: 825944866424928306
+        Id: 16556265402954687415
         Name: "Cylinder - Bottom-Aligned"
         Transform {
           Location {
@@ -152,7 +152,7 @@
             Z: 0.15594846
           }
         }
-        ParentId: 12004379690236175316
+        ParentId: 15452024742124965091
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -187,17 +187,18 @@
         }
       }
       Objects {
-        Id: 7532972176017799589
+        Id: 8210581645942767481
         Name: "Spotlight"
         Transform {
           Location {
-            Y: 1.65935707
-            Z: 19.9183273
+            X: -9.9846261e-07
+            Y: 1.65857625
+            Z: 19.9182625
           }
           Rotation {
-            Pitch: 90
-            Yaw: -53.1301079
-            Roll: 126.869873
+            Pitch: 82.1452637
+            Yaw: 180
+            Roll: -3.05175781e-05
           }
           Scale {
             X: 1
@@ -205,7 +206,7 @@
             Z: 1
           }
         }
-        ParentId: 12004379690236175316
+        ParentId: 15452024742124965091
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -213,27 +214,28 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 16.6596451
+          Intensity: 8.72599888
           Color {
-            R: 0.239583328
-            G: 0.239583328
-            B: 0.239583328
+            R: 0.00999999
+            G: 1
+            B: 0.763973594
             A: 1
           }
+          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 1920.65771
+              AttenuationRadius: 1122.23364
               SpotLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20
                 FallOffExponent: 8
                 UseFallOffExponent: true
-                InnerConeAngle: 30
-                OuterConeAngle: 64.6388245
+                InnerConeAngle: 16.3769608
+                OuterConeAngle: 24.2917633
                 Profile {
                   Value: "mc:espotlightprofile:basicspotlight"
                 }

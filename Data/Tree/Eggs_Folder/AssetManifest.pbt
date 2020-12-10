@@ -728,15 +728,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13984265137503490836
-  Name: "Energy Tube Glow"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "Energy_Tube_Glow"
-  }
-}
-Assets {
   Id: 13974467470876549892
   Name: "Stone Railing 8m"
   PlatformAssetType: 1

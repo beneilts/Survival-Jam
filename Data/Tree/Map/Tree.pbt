@@ -57,8 +57,9 @@ Objects {
     Overrides {
       Name: "bp:Light Color"
       Color {
-        G: 0.5
-        B: 0.440397501
+        R: 1
+        G: 0.69655627
+        B: 0.209999979
         A: 1
       }
     }
