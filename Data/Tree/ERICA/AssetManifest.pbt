@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 18107980605465968105
+  Name: "Wedge - Corner Complex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_corelogo_shape_001"
+  }
+}
+Assets {
   Id: 18101129052711895443
   Name: "Kelp Tile 01"
   PlatformAssetType: 1
@@ -95,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "abp_HorrorDarkMusic_ref"
+  }
+}
+Assets {
+  Id: 16564330097156907367
+  Name: "Wallpaper Polka Dot 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wallpaper_polkadot_001_uv"
   }
 }
 Assets {
@@ -260,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12755745315329926573
+  Name: "Cone - Truncated Hollow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_001"
+  }
+}
+Assets {
   Id: 12665761949314103200
   Name: "Cone - Truncated Hollow Thin"
   PlatformAssetType: 1
@@ -302,6 +329,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "dcl_liquid"
+  }
+}
+Assets {
+  Id: 12356581102050708884
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
   }
 }
 Assets {
@@ -401,6 +437,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_ambience_dark_dungeon_cave_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 10266917324539904248
+  Name: "Crescent - 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crescent_003"
   }
 }
 Assets {
@@ -683,6 +728,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1778446291070997431
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
   Id: 1555214426048461945
   Name: "\"Tense Desolate Horror Wasteland\" Piano Music Stingers Set 01"
   PlatformAssetType: 10
@@ -752,6 +806,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_001"
+  }
+}
+Assets {
+  Id: 132672053610873933
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
   }
 }
 Assets {

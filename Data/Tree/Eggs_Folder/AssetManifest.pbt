@@ -1529,6 +1529,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10073390962581407054
+  Name: "Gold Treasure 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_treasure_001"
+  }
+}
+Assets {
   Id: 10044709230857900995
   Name: "Text 05: S"
   PlatformAssetType: 1
