@@ -1,7 +1,7 @@
 ﻿Name: "UpgradedWeapons"
-RootId: 18385443493503515986
+RootId: 15283344860884001887
 Objects {
-  Id: 17476920589569944691
+  Id: 4496372934963875067
   Name: "ADS Rifle"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18385443493503515986
+  ParentId: 15283344860884001887
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"

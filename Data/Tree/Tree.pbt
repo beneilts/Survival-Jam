@@ -14,15 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 5239911370363113631
-  ChildIds: 4744720136730282895
-  ChildIds: 16954676275518417137
-  ChildIds: 8180902706535555839
-  ChildIds: 4699869336804134383
-  ChildIds: 8701062948484923034
-  ChildIds: 3549622735346979619
-  ChildIds: 5830235839598493
-  ChildIds: 4645086417102371542
+  ChildIds: 453542492680484303
+  ChildIds: 6468609779664160190
+  ChildIds: 9474754621644636225
+  ChildIds: 3693435253265371569
+  ChildIds: 8874313960761186175
+  ChildIds: 13974188897355700842
+  ChildIds: 15528212611253686987
+  ChildIds: 14538402050092016501
+  ChildIds: 742251370243099032
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4645086417102371542
+  Id: 742251370243099032
   Name: "ERICA"
   Transform {
     Location {
@@ -61,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5830235839598493
+  Id: 14538402050092016501
   Name: "Eggs_Folder"
   Transform {
     Location {
@@ -87,7 +87,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3549622735346979619
+  Id: 15528212611253686987
   Name: "UI"
   Transform {
     Location {
@@ -113,7 +113,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8701062948484923034
+  Id: 13974188897355700842
   Name: "Map"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4699869336804134383
+  Id: 8874313960761186175
   Name: "Gameplay Systems"
   Transform {
     Location {
@@ -168,7 +168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8180902706535555839
+  Id: 3693435253265371569
   Name: "Spawn Point"
   Transform {
     Location {
@@ -195,7 +195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16954676275518417137
+  Id: 9474754621644636225
   Name: "Game Settings"
   Transform {
     Location {
@@ -244,7 +244,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4744720136730282895
+  Id: 6468609779664160190
   Name: "Team Settings"
   Transform {
     Location {
@@ -275,7 +275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5239911370363113631
+  Id: 453542492680484303
   Name: "Respawn Settings"
   Transform {
     Location {

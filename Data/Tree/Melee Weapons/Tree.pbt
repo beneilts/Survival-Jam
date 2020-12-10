@@ -1,7 +1,7 @@
 ﻿Name: "Melee Weapons"
-RootId: 9386536851688581103
+RootId: 5034530204557236764
 Objects {
-  Id: 18071688751837228980
+  Id: 2728940229663529339
   Name: "Crowbar"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9921354250118464331
+  Id: 11215895248104278885
   Name: "Katana"
   Transform {
     Location {
@@ -75,7 +75,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -127,7 +127,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14666350289816951755
+  Id: 11799601656237478523
   Name: "Morning Star"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -192,7 +192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3298388393123446132
+  Id: 7365558217934766052
   Name: "Bat"
   Transform {
     Location {
@@ -205,7 +205,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -257,7 +257,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11331049961991823752
+  Id: 1922429395862207033
   Name: "Quarterstaff"
   Transform {
     Location {
@@ -270,7 +270,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -322,7 +322,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15009204789241419735
+  Id: 12372617467018523895
   Name: "Stop Sign"
   Transform {
     Location {
@@ -335,7 +335,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -387,7 +387,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14369319733872871235
+  Id: 10729040939551145232
   Name: "Pipe"
   Transform {
     Location {
@@ -400,7 +400,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -452,7 +452,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7249478838980877336
+  Id: 11762479105081303573
   Name: "Improvised Knife"
   Transform {
     Location {
@@ -465,7 +465,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9386536851688581103
+  ParentId: 5034530204557236764
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"

@@ -1,7 +1,7 @@
 ﻿Name: "Ranged Weapons"
-RootId: 949936582565053078
+RootId: 3084494242980781654
 Objects {
-  Id: 7740329538794788665
+  Id: 17694914159563654705
   Name: "Rifle"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18241968287621094243
+  Id: 16964911341844149028
   Name: "SMG"
   Transform {
     Location {
@@ -79,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -131,7 +131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8932230056550885544
+  Id: 3352506758409339626
   Name: "Shotgun"
   Transform {
     Location {
@@ -144,7 +144,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -196,7 +196,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14226782663411487743
+  Id: 8166265556168556929
   Name: "Crossbow"
   Transform {
     Location {
@@ -209,7 +209,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2527824059865845526
+  Id: 9796382557741066416
   Name: "Revolver"
   Transform {
     Location {
@@ -274,7 +274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -326,7 +326,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18134128021946836695
+  Id: 17474717219864284800
   Name: "Attachments"
   Transform {
     Location {
@@ -339,7 +339,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -352,7 +352,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18385443493503515986
+  Id: 15283344860884001887
   Name: "UpgradedWeapons"
   Transform {
     Location {
@@ -365,7 +365,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 949936582565053078
+  ParentId: 3084494242980781654
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

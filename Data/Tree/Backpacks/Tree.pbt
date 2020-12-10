@@ -1,7 +1,7 @@
 ﻿Name: "Backpacks"
-RootId: 11283213352873454668
+RootId: 9697666770129589159
 Objects {
-  Id: 4977110878937134160
+  Id: 8388888623204181790
   Name: "Military Backpack"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11283213352873454668
+  ParentId: 9697666770129589159
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -69,7 +69,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3492588595309864819
+  Id: 13708212122503255217
   Name: "Hiking Backpack"
   Transform {
     Location {
@@ -82,7 +82,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11283213352873454668
+  ParentId: 9697666770129589159
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -137,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11863300139428249927
+  Id: 3226973249464166197
   Name: "Knapsack"
   Transform {
     Location {
@@ -150,7 +150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11283213352873454668
+  ParentId: 9697666770129589159
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -205,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17172476709002621624
+  Id: 1513179809209633440
   Name: "Child\'s Backpack"
   Transform {
     Location {
@@ -218,7 +218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11283213352873454668
+  ParentId: 9697666770129589159
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"

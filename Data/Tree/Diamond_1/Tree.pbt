@@ -1,7 +1,7 @@
 ﻿Name: "Diamond_1"
-RootId: 6774054062407026400
+RootId: 13061940905614115626
 Objects {
-  Id: 8710822482100043142
+  Id: 3182711340938169840
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6774054062407026400
+  ParentId: 13061940905614115626
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -77,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10732942647564578952
+  Id: 652658157705722600
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
@@ -91,7 +91,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6774054062407026400
+  ParentId: 13061940905614115626
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"

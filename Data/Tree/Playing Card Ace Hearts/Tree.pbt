@@ -1,7 +1,7 @@
 ﻿Name: "Playing Card Ace Hearts"
-RootId: 3034159323667290591
+RootId: 6418090568203540066
 Objects {
-  Id: 17153956351912989199
+  Id: 13547395398819176692
   Name: "Manticore Logo"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 3034159323667290591
+  ParentId: 6418090568203540066
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -48,7 +48,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4704964943030139727
+  Id: 479057077189193720
   Name: "SuitDown"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3034159323667290591
+  ParentId: 6418090568203540066
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -85,7 +85,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10079201582694324391
+  Id: 2055867834114401696
   Name: "SuitUp"
   Transform {
     Location {
@@ -101,7 +101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3034159323667290591
+  ParentId: 6418090568203540066
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -120,7 +120,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16405400027932584590
+  Id: 4519151168543993892
   Name: "Card"
   Transform {
     Location {
@@ -135,7 +135,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 3034159323667290591
+  ParentId: 6418090568203540066
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

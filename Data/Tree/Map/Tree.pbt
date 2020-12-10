@@ -1,7 +1,7 @@
 ﻿Name: "Map"
-RootId: 8701062948484923034
+RootId: 13974188897355700842
 Objects {
-  Id: 10005074784157121906
+  Id: 10799280352421550440
   Name: "Default Sky"
   Transform {
     Location {
@@ -15,10 +15,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8701062948484923034
-  ChildIds: 13551641546322277000
-  ChildIds: 7155168770677928712
-  ChildIds: 10505154200474359396
+  ParentId: 13974188897355700842
+  ChildIds: 13304786558589734075
+  ChildIds: 12532510797084578366
+  ChildIds: 16496915372228474571
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,7 +32,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10505154200474359396
+  Id: 16496915372228474571
   Name: "Sun Light"
   Transform {
     Location {
@@ -48,7 +48,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10005074784157121906
+  ParentId: 10799280352421550440
   UnregisteredParameters {
     Overrides {
       Name: "bp:Use Temperature"
@@ -110,7 +110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7155168770677928712
+  Id: 12532510797084578366
   Name: "Skylight"
   Transform {
     Location {
@@ -123,7 +123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10005074784157121906
+  ParentId: 10799280352421550440
   UnregisteredParameters {
     Overrides {
       Name: "bp:Index"
@@ -195,7 +195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13551641546322277000
+  Id: 13304786558589734075
   Name: "Sky Dome"
   Transform {
     Location {
@@ -208,7 +208,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10005074784157121906
+  ParentId: 10799280352421550440
   UnregisteredParameters {
     Overrides {
       Name: "bp:Zenith Color"

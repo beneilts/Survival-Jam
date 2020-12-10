@@ -1,7 +1,7 @@
 ﻿Name: "Gameplay Systems"
-RootId: 4699869336804134383
+RootId: 8874313960761186175
 Objects {
-  Id: 11013311560723203632
+  Id: 1059683662952991965
   Name: "NavMesh"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
+  ParentId: 8874313960761186175
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29,7 +29,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4652627164022514887
+  Id: 4655661909382734501
   Name: "Combat Dependencies"
   Transform {
     Location {
@@ -44,10 +44,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
-  ChildIds: 9180781569225591543
-  ChildIds: 11852871934013363819
-  ChildIds: 5292543099082604414
+  ParentId: 8874313960761186175
+  ChildIds: 13518194787893651904
+  ChildIds: 2532804040063567652
+  ChildIds: 16409951758789048375
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5292543099082604414
+  Id: 16409951758789048375
   Name: "CrossContextCaller"
   Transform {
     Location {
@@ -72,7 +72,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4652627164022514887
+  ParentId: 4655661909382734501
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -88,7 +88,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11852871934013363819
+  Id: 2532804040063567652
   Name: "PlayerHomingTargets"
   Transform {
     Location {
@@ -101,7 +101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4652627164022514887
+  ParentId: 4655661909382734501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115,7 +115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9180781569225591543
+  Id: 13518194787893651904
   Name: "CombatWrapAPI"
   Transform {
     Location {
@@ -128,7 +128,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4652627164022514887
+  ParentId: 4655661909382734501
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -144,7 +144,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7164611454769398542
+  Id: 6924151295851257062
   Name: "Sprint"
   Transform {
     Location {
@@ -159,7 +159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
+  ParentId: 8874313960761186175
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -172,7 +172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6621589279323952823
+  Id: 11499263431750851211
   Name: "Crafting System"
   Transform {
     Location {
@@ -187,7 +187,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
+  ParentId: 8874313960761186175
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -200,7 +200,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14742305871295819074
+  Id: 12484155578060451091
   Name: "ItemSystems"
   Transform {
     Location {
@@ -215,7 +215,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
+  ParentId: 8874313960761186175
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -230,7 +230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5410526188692845317
+  Id: 7375716291405326870
   Name: "Round Counter"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
+  ParentId: 8874313960761186175
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -258,7 +258,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15526055731184271123
+  Id: 6977773170100846357
   Name: "Enemy Spawner"
   Transform {
     Location {
@@ -275,9 +275,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
-  ChildIds: 6700686860902280160
-  ChildIds: 17542176294713519446
+  ParentId: 8874313960761186175
+  ChildIds: 2147464804213993454
+  ChildIds: 11111900490950280068
   UnregisteredParameters {
     Overrides {
       Name: "cs:BasicEnemy"
@@ -297,7 +297,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17542176294713519446
+  Id: 11111900490950280068
   Name: "Enemy Spawn Points"
   Transform {
     Location {
@@ -310,10 +310,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15526055731184271123
-  ChildIds: 7515420071821335243
-  ChildIds: 17480915164549652541
-  ChildIds: 11406811498307818987
+  ParentId: 6977773170100846357
+  ChildIds: 7811248608657218164
+  ChildIds: 18122354856020261221
+  ChildIds: 6033980670360946550
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -325,7 +325,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11406811498307818987
+  Id: 6033980670360946550
   Name: "Enemy Spawn Point"
   Transform {
     Location {
@@ -342,7 +342,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17542176294713519446
+  ParentId: 11111900490950280068
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -391,7 +391,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17480915164549652541
+  Id: 18122354856020261221
   Name: "Enemy Spawn Point"
   Transform {
     Location {
@@ -408,7 +408,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17542176294713519446
+  ParentId: 11111900490950280068
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -457,7 +457,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7515420071821335243
+  Id: 7811248608657218164
   Name: "Enemy Spawn Point"
   Transform {
     Location {
@@ -474,7 +474,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17542176294713519446
+  ParentId: 11111900490950280068
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -523,7 +523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6700686860902280160
+  Id: 2147464804213993454
   Name: "Enemy Wave System Handler"
   Transform {
     Location {
@@ -540,7 +540,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15526055731184271123
+  ParentId: 6977773170100846357
   UnregisteredParameters {
     Overrides {
       Name: "cs:ABGS"
@@ -551,13 +551,13 @@ Objects {
     Overrides {
       Name: "cs:Root"
       ObjectReference {
-        SelfId: 15526055731184271123
+        SelfId: 6977773170100846357
       }
     }
     Overrides {
       Name: "cs:SpawnPoints"
       ObjectReference {
-        SelfId: 17542176294713519446
+        SelfId: 11111900490950280068
       }
     }
   }
@@ -574,7 +574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17254290448200343825
+  Id: 17459945421036951167
   Name: "First Person Camera Settings"
   Transform {
     Location {
@@ -587,7 +587,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
+  ParentId: 8874313960761186175
   TemplateInstance {
     ParameterOverrideMap {
       key: 18143788354451018607
@@ -624,7 +624,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12835670381940425655
+  Id: 48422528562116614
   Name: "Basic Game State Manager"
   Transform {
     Location {
@@ -639,9 +639,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4699869336804134383
-  ChildIds: 10482962668460141477
-  ChildIds: 4457606192414841269
+  ParentId: 8874313960761186175
+  ChildIds: 4419140245094090991
+  ChildIds: 2124266231901582694
   UnregisteredParameters {
     Overrides {
       Name: "cs:LobbyHasDuration"
@@ -711,7 +711,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4457606192414841269
+  Id: 2124266231901582694
   Name: "ClientContext"
   Transform {
     Location {
@@ -724,8 +724,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12835670381940425655
-  ChildIds: 8403041858020681388
+  ParentId: 48422528562116614
+  ChildIds: 14592329533076813483
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -738,7 +738,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8403041858020681388
+  Id: 14592329533076813483
   Name: "BasicGameStateManagerClient"
   Transform {
     Location {
@@ -751,7 +751,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4457606192414841269
+  ParentId: 2124266231901582694
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -762,7 +762,7 @@ Objects {
     Overrides {
       Name: "cs:ServerScript"
       ObjectReference {
-        SelfId: 10482962668460141477
+        SelfId: 4419140245094090991
       }
     }
   }
@@ -779,7 +779,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10482962668460141477
+  Id: 4419140245094090991
   Name: "BasicGameStateManagerServer"
   Transform {
     Location {
@@ -792,7 +792,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12835670381940425655
+  ParentId: 48422528562116614
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -803,7 +803,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 12835670381940425655
+        SelfId: 48422528562116614
       }
     }
     Overrides {

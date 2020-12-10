@@ -1,7 +1,7 @@
 ﻿Name: "Playing Card Four Diamonds_19"
-RootId: 13055446813711135647
+RootId: 175635741195047679
 Objects {
-  Id: 16436741763727712514
+  Id: 7848027341861653702
   Name: "Manticore Logo"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 13055446813711135647
+  ParentId: 175635741195047679
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -48,7 +48,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6349139873551368689
+  Id: 272286526872792552
   Name: "Card"
   Transform {
     Location {
@@ -63,7 +63,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 13055446813711135647
+  ParentId: 175635741195047679
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

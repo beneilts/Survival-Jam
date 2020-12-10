@@ -1,7 +1,7 @@
 ﻿Name: "SuitUp_5"
-RootId: 4458735699520912283
+RootId: 14639951071008492399
 Objects {
-  Id: 5637005184477945020
+  Id: 14510602632101481887
   Name: "Value"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 4458735699520912283
+  ParentId: 14639951071008492399
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Faces:id"
@@ -90,7 +90,7 @@ Objects {
   }
 }
 Objects {
-  Id: 793594366136758880
+  Id: 11908337881128412748
   Name: "Suit"
   Transform {
     Location {
@@ -104,7 +104,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 4458735699520912283
+  ParentId: 14639951071008492399
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

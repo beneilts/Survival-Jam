@@ -1,7 +1,7 @@
 ﻿Name: "SuitUp_3"
-RootId: 5597476471741383447
+RootId: 5273637301856176895
 Objects {
-  Id: 7860639042540294238
+  Id: 10524955542059226118
   Name: "Value"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 5597476471741383447
+  ParentId: 5273637301856176895
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font.Faces:id"

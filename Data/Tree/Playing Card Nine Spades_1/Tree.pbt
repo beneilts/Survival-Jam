@@ -1,7 +1,7 @@
 ﻿Name: "Playing Card Nine Spades_1"
-RootId: 4760597287379109508
+RootId: 3239464117953768101
 Objects {
-  Id: 6186755649410382172
+  Id: 6060116631845333631
   Name: "Spade"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 0.0774363801
     }
   }
-  ParentId: 4760597287379109508
+  ParentId: 3239464117953768101
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -38,7 +38,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14276382224668810352
+  Id: 3984885330691915679
   Name: "Spade"
   Transform {
     Location {
@@ -56,7 +56,7 @@ Objects {
       Z: 0.0774363801
     }
   }
-  ParentId: 4760597287379109508
+  ParentId: 3239464117953768101
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -75,7 +75,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4300857460597314411
+  Id: 10361695877164644731
   Name: "Manticore Logo"
   Transform {
     Location {
@@ -93,7 +93,7 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 4760597287379109508
+  ParentId: 3239464117953768101
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -122,7 +122,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17739740073474946147
+  Id: 6511953613326600722
   Name: "SuitDown"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4760597287379109508
+  ParentId: 3239464117953768101
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -159,7 +159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1635461389511274961
+  Id: 14556608547881238366
   Name: "SuitUp"
   Transform {
     Location {
@@ -175,7 +175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4760597287379109508
+  ParentId: 3239464117953768101
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -194,7 +194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12485094336247469875
+  Id: 2810129861465822822
   Name: "Card"
   Transform {
     Location {
@@ -209,7 +209,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 4760597287379109508
+  ParentId: 3239464117953768101
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

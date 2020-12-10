@@ -1,7 +1,7 @@
 ﻿Name: "Spade_2"
-RootId: 6186755649410382172
+RootId: 6060116631845333631
 Objects {
-  Id: 10981969317242234845
+  Id: 9166544765578614519
   Name: "Suit"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 6186755649410382172
+  ParentId: 6060116631845333631
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1021601764981283189
+  Id: 6514598229137066130
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
@@ -78,7 +78,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6186755649410382172
+  ParentId: 6060116631845333631
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"

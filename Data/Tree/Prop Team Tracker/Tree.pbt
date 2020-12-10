@@ -1,7 +1,7 @@
 ﻿Name: "Prop Team Tracker"
-RootId: 5410526188692845317
+RootId: 7375716291405326870
 Objects {
-  Id: 10224066380991605212
+  Id: 17160910611742156204
   Name: "ClientContext"
   Transform {
     Location {
@@ -15,8 +15,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5410526188692845317
-  ChildIds: 10485612597703438592
+  ParentId: 7375716291405326870
+  ChildIds: 15620623733103545275
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,7 +27,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10485612597703438592
+  Id: 15620623733103545275
   Name: "RoundCounter_Client"
   Transform {
     Location {
@@ -40,12 +40,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10224066380991605212
+  ParentId: 17160910611742156204
   UnregisteredParameters {
     Overrides {
       Name: "cs:ServerScript"
       ObjectReference {
-        SelfId: 16110356687003774133
+        SelfId: 13633788390729793338
       }
     }
   }
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16110356687003774133
+  Id: 13633788390729793338
   Name: "RoundCounter_Server"
   Transform {
     Location {
@@ -75,7 +75,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5410526188692845317
+  ParentId: 7375716291405326870
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"

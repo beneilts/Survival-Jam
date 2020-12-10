@@ -1,7 +1,7 @@
 ﻿Name: "Sprint"
-RootId: 7164611454769398542
+RootId: 6924151295851257062
 Objects {
-  Id: 10648305814771291834
+  Id: 1045802532783512477
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7164611454769398542
-  ChildIds: 7461810851967696758
-  ChildIds: 13817943769235917387
+  ParentId: 6924151295851257062
+  ChildIds: 14200275524484502132
+  ChildIds: 12437793005554156731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -27,7 +27,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13817943769235917387
+  Id: 12437793005554156731
   Name: "Radial Blur Post Process"
   Transform {
     Location {
@@ -40,7 +40,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10648305814771291834
+  ParentId: 1045802532783512477
   UnregisteredParameters {
     Overrides {
       Name: "bp:Center Area Contrast"
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7461810851967696758
+  Id: 14200275524484502132
   Name: "SprintSystem_Client"
   Transform {
     Location {
@@ -79,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10648305814771291834
+  ParentId: 1045802532783512477
   UnregisteredParameters {
     Overrides {
       Name: "cs:DefaultCamFOV"
@@ -96,7 +96,7 @@ Objects {
     Overrides {
       Name: "cs:VFX"
       ObjectReference {
-        SelfId: 13817943769235917387
+        SelfId: 12437793005554156731
       }
     }
     Overrides {
@@ -121,7 +121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10705540790711778219
+  Id: 17697301109404901658
   Name: "SprintSystem_Server"
   Transform {
     Location {
@@ -134,7 +134,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7164611454769398542
+  ParentId: 6924151295851257062
   UnregisteredParameters {
     Overrides {
       Name: "cs:SprintKeybind"
