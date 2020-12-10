@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 16354756231346655519
-  Name: "Custom Generic Water_1"
+  Name: "E_Water"
   PlatformAssetType: 13
   SerializationVersion: 68
   CustomMaterialAsset {

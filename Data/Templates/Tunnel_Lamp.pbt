@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 15555015309918435850
         ChildIds: 8293288491741204778
         ChildIds: 16609707960194446138
         Collidable_v2 {
@@ -546,8 +546,9 @@
         Name: "Point Light"
         Transform {
           Location {
-            X: 11.1401367
-            Y: 1.98449707
+            X: 49.0275879
+            Y: 1.98461914
+            Z: -6.66165161
           }
           Rotation {
           }
@@ -565,20 +566,21 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 2.12356281
+          Intensity: 1.22590613
           Color {
-            R: 0.359375
-            G: 0.33592242
-            B: 0.198404968
+            R: 1
+            G: 0.0199999809
+            B: 0.29258287
             A: 1
           }
+          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 1073.34192
+              AttenuationRadius: 489.049347
               PointLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20

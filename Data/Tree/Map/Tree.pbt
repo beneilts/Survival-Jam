@@ -55,15 +55,6 @@ Objects {
       Bool: false
     }
     Overrides {
-      Name: "bp:Light Color"
-      Color {
-        R: 1
-        G: 0.69655627
-        B: 0.209999979
-        A: 1
-      }
-    }
-    Overrides {
       Name: "bp:Shape"
       Int: 1
     }
@@ -72,20 +63,8 @@ Objects {
       Float: 5
     }
     Overrides {
-      Name: "bp:Light Shaft Bloom"
-      Bool: true
-    }
-    Overrides {
       Name: "bp:Cast Volumetric Shadows"
       Bool: false
-    }
-    Overrides {
-      Name: "bp:Light Shaft Mask Darkness"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 5
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -98,11 +77,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Shaft Bloom Scale"
-      Float: 0.2
+      Float: 1.18142712
     }
     Overrides {
       Name: "bp:Light Shaft Bloom Threshold"
-      Float: 0.05
+      Float: 1.8995409
     }
     Overrides {
       Name: "bp:Light Shaft Occlusion"
@@ -111,8 +90,9 @@ Objects {
     Overrides {
       Name: "bp:Light Shaft Bloom Tint"
       Color {
-        G: 0.320000052
-        B: 0.22463581
+        R: 1
+        G: 0.776159
+        B: 0.350000024
         A: 1
       }
     }
@@ -155,7 +135,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3
+      Float: 0.524536312
     }
     Overrides {
       Name: "bp:Lower Hemisphere Color"
@@ -189,10 +169,16 @@ Objects {
     Overrides {
       Name: "bp:Tint Color"
       Color {
-        R: 0.502886474
-        G: 0.48514995
-        B: 0.752942204
+        R: 0.855364382
+        G: 0.61
+        B: 1
         A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Ambient Image"
+      Enum {
+        Value: "mc:eambientcubemapssmall:10"
       }
     }
   }
@@ -299,7 +285,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Brightness"
-      Float: 1
+      Float: 1.51571298
     }
     Overrides {
       Name: "bp:Background Clouds"

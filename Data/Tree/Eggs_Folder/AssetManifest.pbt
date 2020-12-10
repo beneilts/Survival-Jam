@@ -125,12 +125,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17945391275610263400
+  Name: "Text 01: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_027"
+  }
+}
+Assets {
   Id: 17869324957276669748
   Name: "Modern Weapon - Foregrip 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_foregrip_002"
+  }
+}
+Assets {
+  Id: 17856979527227186112
+  Name: "Text 01: V"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_021"
   }
 }
 Assets {
@@ -206,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17367198313122456826
+  Name: "Text 01: P"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_015"
+  }
+}
+Assets {
   Id: 17274652520334798665
   Name: "Text 05: V"
   PlatformAssetType: 1
@@ -230,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_02_ref"
+  }
+}
+Assets {
+  Id: 17008391362634220171
+  Name: "Text 03: U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_020"
   }
 }
 Assets {
@@ -266,6 +302,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
+  Id: 16717598627380507624
+  Name: "Text 01: D"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_003"
   }
 }
 Assets {
@@ -338,6 +383,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_002"
+  }
+}
+Assets {
+  Id: 16425745008170772085
+  Name: "Metal Corrugated 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
   }
 }
 Assets {
@@ -518,6 +572,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_rope_001"
+  }
+}
+Assets {
+  Id: 15295561821505686125
+  Name: "Metal Floor Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_002_uv"
   }
 }
 Assets {
@@ -710,6 +773,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14065577223558617048
+  Name: "Text 01: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_000"
+  }
+}
+Assets {
   Id: 14023144080669477239
   Name: "Hill 02"
   PlatformAssetType: 1
@@ -770,6 +842,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_001"
+  }
+}
+Assets {
+  Id: 13664898694257137390
+  Name: "Text 04: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_018"
+  }
+}
+Assets {
+  Id: 13652964574291277950
+  Name: "Text 01: 3"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_029"
   }
 }
 Assets {
@@ -998,12 +1088,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12155659426383470229
+  Name: "Text 01: 4"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_030"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 12019606181040703320
+  Name: "Text 01: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_011"
   }
 }
 Assets {
@@ -1250,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10819835247996304631
+  Name: "Text 04: C"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_002"
+  }
+}
+Assets {
   Id: 10779001228347641714
   Name: "Pipe"
   PlatformAssetType: 1
@@ -1340,6 +1457,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10226470787662147633
+  Name: "Text 04: H"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_007"
+  }
+}
+Assets {
   Id: 10221011215825579366
   Name: "Damaged Concrete Pillar 01"
   PlatformAssetType: 1
@@ -1355,6 +1481,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_star_faceted_6pointed_001"
+  }
+}
+Assets {
+  Id: 10138227097843541923
+  Name: "Text 03: F"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_005"
   }
 }
 Assets {
@@ -1403,6 +1538,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10022228146378314021
+  Name: "Metal Floor Panel 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_003_uv"
+  }
+}
+Assets {
   Id: 10015425128660044844
   Name: "Rock Flat 02"
   PlatformAssetType: 1
@@ -1418,6 +1562,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_002"
+  }
+}
+Assets {
+  Id: 9886203935370323286
+  Name: "Text 01: Y"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_024"
   }
 }
 Assets {
@@ -1448,6 +1601,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9747949495143407817
+  Name: "Text 04: U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_020"
+  }
+}
+Assets {
   Id: 9691585235102710834
   Name: "Metal Iron 01"
   PlatformAssetType: 2
@@ -1463,6 +1625,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_bottom_6m_002"
+  }
+}
+Assets {
+  Id: 9640140754650876021
+  Name: "Text 01: 2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_028"
   }
 }
 Assets {
@@ -1943,6 +2114,24 @@ Assets {
   }
 }
 Assets {
+  Id: 6428564591284771251
+  Name: "Text 04: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_011"
+  }
+}
+Assets {
+  Id: 6396938738067974458
+  Name: "Text 01: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_013"
+  }
+}
+Assets {
   Id: 6336475631865232827
   Name: "Text 03: M"
   PlatformAssetType: 1
@@ -2141,6 +2330,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5305711704856378062
+  Name: "Prism - 8-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_hq_001"
+  }
+}
+Assets {
   Id: 5218168200277689990
   Name: "Text 05: N"
   PlatformAssetType: 1
@@ -2183,6 +2381,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_convex_001"
+  }
+}
+Assets {
+  Id: 4900937168146612033
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
   }
 }
 Assets {
@@ -2465,6 +2672,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3364894731447969314
+  Name: "Metal Corrugated 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
+  }
+}
+Assets {
   Id: 3364119171515183032
   Name: "Gear - generic large five-spoked"
   PlatformAssetType: 1
@@ -2609,6 +2825,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2536316198189042951
+  Name: "Text 01: 0"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_026"
+  }
+}
+Assets {
   Id: 2472843936350253912
   Name: "Marble Basic 01"
   PlatformAssetType: 2
@@ -2633,6 +2858,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_005"
+  }
+}
+Assets {
+  Id: 2109752624457112691
+  Name: "Text 01: 5"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_031"
   }
 }
 Assets {
@@ -2669,6 +2903,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AnimatedMeshAssetRef"
     AssetId: "npc_human_guy_fantasy_003_ref"
+  }
+}
+Assets {
+  Id: 1906363247250816747
+  Name: "Text 01: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_014"
   }
 }
 Assets {
@@ -2852,6 +3095,15 @@ Assets {
   }
 }
 Assets {
+  Id: 537584355428349837
+  Name: "Volumetric Fog Injector Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_volumetric_fog_injector"
+  }
+}
+Assets {
   Id: 526843540183677030
   Name: "Urban Plank Debris 04"
   PlatformAssetType: 1
@@ -2867,6 +3119,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_000"
+  }
+}
+Assets {
+  Id: 389588059642187118
+  Name: "Text 03: V"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_021"
   }
 }
 Assets {

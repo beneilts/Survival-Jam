@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 9149198916827903630
-  Name: "Custom Gel Transparent"
+  Name: "E_Gel"
   PlatformAssetType: 13
   SerializationVersion: 68
   CustomMaterialAsset {
