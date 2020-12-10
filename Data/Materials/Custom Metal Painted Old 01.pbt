@@ -7,20 +7,8 @@
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {
       Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.139999986
-          G: 0.0139072845
-          A: 1
-        }
-      }
-      Overrides {
         Name: "edge_roughness"
         Float: 0.972750306
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.0359542035
       }
       Overrides {
         Name: "gradient_falloff"
