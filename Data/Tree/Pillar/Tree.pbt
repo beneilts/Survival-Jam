@@ -76,8 +76,6 @@ Objects {
     }
   }
   ParentId: 9646535085204402684
-  ChildIds: 3075789495183634953
-  ChildIds: 4226912521317108221
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -86,158 +84,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 4226912521317108221
-  Name: "Craftsman Porch Pillar 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: -0.42489627
-    }
-    Scale {
-      X: 0.604162514
-      Y: 0.604162514
-      Z: 0.604162514
-    }
-  }
-  ParentId: 14990685119310814882
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 424978888570482377
-      }
-    }
-    Overrides {
-      Name: "ma:Building_LowerTrimOuter:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Foundation:id"
-      AssetReference {
-        Id: 424978888570482377
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Foundation:color"
-      Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10252689058284250831
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3075789495183634953
-  Name: "Craftsman Porch Pillar 01"
-  Transform {
-    Location {
-      Y: -4.04589844
-      Z: 660.706177
-    }
-    Rotation {
-      Roll: 179.575165
-    }
-    Scale {
-      X: 0.604162514
-      Y: 0.604162514
-      Z: 0.604162514
-    }
-  }
-  ParentId: 14990685119310814882
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 424978888570482377
-      }
-    }
-    Overrides {
-      Name: "ma:Building_LowerTrimOuter:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Foundation:id"
-      AssetReference {
-        Id: 424978888570482377
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Foundation:color"
-      Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10252689058284250831
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -2440,7 +2286,6 @@ Objects {
   }
   ParentId: 6109006397052377060
   ChildIds: 10270884473963708789
-  ChildIds: 417607314805039814
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2449,83 +2294,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 417607314805039814
-  Name: "Craftsman Porch Pillar 01"
-  Transform {
-    Location {
-      Y: 0.197563708
-      Z: -26.520607
-    }
-    Rotation {
-      Roll: -0.42489624
-    }
-    Scale {
-      X: 0.604162514
-      Y: 0.604162514
-      Z: 0.604162514
-    }
-  }
-  ParentId: 13805266095049755251
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 424978888570482377
-      }
-    }
-    Overrides {
-      Name: "ma:Building_LowerTrimOuter:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Foundation:id"
-      AssetReference {
-        Id: 424978888570482377
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Foundation:color"
-      Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10252689058284250831
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -2568,18 +2336,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
         A: 1
       }
     }
@@ -2780,18 +2542,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
         A: 1
       }
     }
@@ -3339,18 +3095,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
         A: 1
       }
     }
@@ -3416,18 +3166,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
         A: 1
       }
     }
@@ -3549,18 +3293,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
         A: 1
       }
     }
@@ -3626,18 +3364,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 0.278431386
-        G: 0.701960802
-        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_Foundation:color"
       Color {
-        R: 0.0862745121
-        G: 0.250980407
-        B: 0.541176498
         A: 1
       }
     }

@@ -8,7 +8,7 @@
     ParameterOverrides {
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0.779899359
+        Float: 0.345504224
       }
       Overrides {
         Name: "color"

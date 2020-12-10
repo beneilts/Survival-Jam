@@ -1,7 +1,7 @@
 ﻿Name: "Frame_39"
-RootId: 5162200514362677236
+RootId: 519949203940729189
 Objects {
-  Id: 8844699305903585789
+  Id: 2586031762967933542
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: -4.62134171
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -56,7 +56,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11224376766306500497
+  Id: 7497511022174641660
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: -3.70638013
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -111,7 +111,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1343603930169443949
+  Id: 12712925259417194374
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -128,7 +128,7 @@ Objects {
       Z: -3.70638013
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -166,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15321263965073351267
+  Id: 1344078295644828327
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -183,7 +183,7 @@ Objects {
       Z: -1.19411302
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -230,7 +230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9135406677695844726
+  Id: 4262588262543552301
   Name: "Group"
   Transform {
     Location {
@@ -249,11 +249,11 @@ Objects {
       Z: 0.693066537
     }
   }
-  ParentId: 5162200514362677236
-  ChildIds: 15036006388498106547
-  ChildIds: 18408865431437612008
-  ChildIds: 17374920024839623833
-  ChildIds: 4150951377492509338
+  ParentId: 519949203940729189
+  ChildIds: 13299382955267484929
+  ChildIds: 3664992461237146166
+  ChildIds: 404491052484104148
+  ChildIds: 18039023565174732327
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -265,7 +265,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4150951377492509338
+  Id: 18039023565174732327
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -283,7 +283,7 @@ Objects {
       Z: -1.3129456
     }
   }
-  ParentId: 9135406677695844726
+  ParentId: 4262588262543552301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -321,7 +321,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17374920024839623833
+  Id: 404491052484104148
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -339,7 +339,7 @@ Objects {
       Z: -1.3129456
     }
   }
-  ParentId: 9135406677695844726
+  ParentId: 4262588262543552301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -377,7 +377,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18408865431437612008
+  Id: 3664992461237146166
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -395,7 +395,7 @@ Objects {
       Z: -1.31294489
     }
   }
-  ParentId: 9135406677695844726
+  ParentId: 4262588262543552301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -433,7 +433,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15036006388498106547
+  Id: 13299382955267484929
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -451,7 +451,7 @@ Objects {
       Z: -1.31294668
     }
   }
-  ParentId: 9135406677695844726
+  ParentId: 4262588262543552301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -489,7 +489,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8171226626633739801
+  Id: 9642974879955214221
   Name: "Group"
   Transform {
     Location {
@@ -507,11 +507,11 @@ Objects {
       Z: 0.693066657
     }
   }
-  ParentId: 5162200514362677236
-  ChildIds: 16025897505839694732
-  ChildIds: 9007229339077573934
-  ChildIds: 11935338975392394426
-  ChildIds: 11514400685993802772
+  ParentId: 519949203940729189
+  ChildIds: 15487722241939285239
+  ChildIds: 12179043065593312920
+  ChildIds: 12977627639813402283
+  ChildIds: 9457170975752676448
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -523,7 +523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11514400685993802772
+  Id: 9457170975752676448
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -540,7 +540,7 @@ Objects {
       Z: -2.06002927
     }
   }
-  ParentId: 8171226626633739801
+  ParentId: 9642974879955214221
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -578,7 +578,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11935338975392394426
+  Id: 12977627639813402283
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -595,7 +595,7 @@ Objects {
       Z: -2.06002927
     }
   }
-  ParentId: 8171226626633739801
+  ParentId: 9642974879955214221
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -633,7 +633,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9007229339077573934
+  Id: 12179043065593312920
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -650,7 +650,7 @@ Objects {
       Z: -2.06002831
     }
   }
-  ParentId: 8171226626633739801
+  ParentId: 9642974879955214221
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -688,7 +688,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16025897505839694732
+  Id: 15487722241939285239
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -706,7 +706,7 @@ Objects {
       Z: -1.4017334
     }
   }
-  ParentId: 8171226626633739801
+  ParentId: 9642974879955214221
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -744,7 +744,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8865904728877883393
+  Id: 12433294644300751619
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -762,7 +762,7 @@ Objects {
       Z: -2.0600307
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -800,7 +800,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11714814776624702893
+  Id: 12942582656716998555
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -818,7 +818,7 @@ Objects {
       Z: -1.2787478
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -856,7 +856,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11221422382788486153
+  Id: 15129623725825832339
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -874,7 +874,7 @@ Objects {
       Z: -1.18095112
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -912,7 +912,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13892585458155309657
+  Id: 1058144929121550535
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -930,7 +930,7 @@ Objects {
       Z: -1.18095136
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -968,7 +968,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12370435292397670993
+  Id: 4408194895099412310
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -986,7 +986,7 @@ Objects {
       Z: -1.18095136
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1024,7 +1024,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10481080485758092117
+  Id: 7003772336266297776
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1042,7 +1042,7 @@ Objects {
       Z: -1.18095231
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1080,7 +1080,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1078803828977273118
+  Id: 6111055770282624365
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1098,7 +1098,7 @@ Objects {
       Z: -2.06002831
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1136,7 +1136,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8887909349287957262
+  Id: 2496955974732723315
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1154,7 +1154,7 @@ Objects {
       Z: -2.06002927
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1192,7 +1192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1758807412776231858
+  Id: 12011137736815336824
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1210,7 +1210,7 @@ Objects {
       Z: -2.06002927
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1248,7 +1248,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17333014623171807188
+  Id: 17712858076832676508
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1266,7 +1266,7 @@ Objects {
       Z: -2.0600307
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1304,7 +1304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13703304245211483826
+  Id: 16758291663690755971
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1321,7 +1321,7 @@ Objects {
       Z: -1.1941129
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1368,7 +1368,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8004496902347836376
+  Id: 13287374255577470038
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1385,7 +1385,7 @@ Objects {
       Z: -1.48889256
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"
@@ -1432,7 +1432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15070929689105250159
+  Id: 7448478488277111251
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
@@ -1451,7 +1451,7 @@ Objects {
       Z: -1.66967213
     }
   }
-  ParentId: 5162200514362677236
+  ParentId: 519949203940729189
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:id"

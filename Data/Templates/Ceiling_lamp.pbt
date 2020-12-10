@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 1287242321425677891
+        ParentId: 17284855810512768652
         ChildIds: 1725140665191826626
         ChildIds: 16706266154597426129
         ChildIds: 825944866424928306
@@ -58,9 +58,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.170600384
-              G: 0.171875
-              B: 0.133382171
+              R: 1
+              G: 0.701655626
+              B: 0.470000029
               A: 1
             }
           }
@@ -213,28 +213,27 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 100
+          Intensity: 16.6596451
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.239583328
+            G: 0.239583328
+            B: 0.239583328
             A: 1
           }
-          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 988.439575
+              AttenuationRadius: 1920.65771
               SpotLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20
                 FallOffExponent: 8
                 UseFallOffExponent: true
                 InnerConeAngle: 30
-                OuterConeAngle: 55.1952209
+                OuterConeAngle: 64.6388245
                 Profile {
                   Value: "mc:espotlightprofile:basicspotlight"
                 }

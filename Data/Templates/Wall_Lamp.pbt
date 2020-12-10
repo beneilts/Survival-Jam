@@ -15,14 +15,14 @@
             Z: 1.59723604
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 3709210733776914215
         ChildIds: 16279636421829191728
         ChildIds: 14116927617048317515
         ChildIds: 4392811124752074224
         ChildIds: 12569750848831690403
         ChildIds: 17353837969216567475
         ChildIds: 3885080136627342412
-        ChildIds: 13783787681962413820
+        ChildIds: 6313769350090878843
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -867,21 +867,23 @@
         }
       }
       Objects {
-        Id: 13783787681962413820
-        Name: "Point Light"
+        Id: 6313769350090878843
+        Name: "Spotlight"
         Transform {
           Location {
-            X: -0.396005929
-            Y: -17.9434605
-            Z: 10.2190685
+            X: -4.68840837
+            Y: 0.652169943
+            Z: 25.0531197
           }
           Rotation {
-            Yaw: -135
+            Pitch: -68.7478943
+            Yaw: -96.0889893
+            Roll: 105.828857
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.626081526
+            Y: 0.626081526
+            Z: 0.626081526
           }
         }
         ParentId: 18175461111859153910
@@ -892,30 +894,34 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 16.8700237
+          Intensity: 18.8731823
           Color {
             R: 1
-            G: 0.872053
-            B: 0.580000043
+            G: 0.325033069
+            B: 0.0899999738
             A: 1
           }
-          CastShadows: true
-          VolumetricIntensity: 5
+          VolumetricIntensity: 16.2260914
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 907.664
-              PointLight {
-                SourceRadius: 20
-                SoftSourceRadius: 20
-                FallOffExponent: 8
+              AttenuationRadius: 1465.20837
+              SpotLight {
+                SourceRadius: 2.0686729
+                SoftSourceRadius: 0.745127261
+                FallOffExponent: 6.80403709
                 UseFallOffExponent: true
+                InnerConeAngle: 23.6035213
+                OuterConeAngle: 30.4859562
+                Profile {
+                  Value: "mc:espotlightprofile:basicspotlight"
+                }
               }
             }
             MaxDrawDistance: 10000
-            MaxDistanceFadeRange: 2000
+            MaxDistanceFadeRange: 1000
           }
         }
       }

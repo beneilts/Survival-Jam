@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18324350020094831794
+  Name: "Text 03: $"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_040"
+  }
+}
+Assets {
   Id: 18292448005538599011
   Name: "Part - Pillar Small Mainstreet"
   PlatformAssetType: 1
@@ -131,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_pillar_bottom_01_ref"
+  }
+}
+Assets {
+  Id: 17803105409590620697
+  Name: "Text 04: I"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_008"
   }
 }
 Assets {
@@ -266,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_001_ref"
+  }
+}
+Assets {
+  Id: 16551547850001193202
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -656,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14206563083884513420
+  Name: "Plane 1m - Two Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_002"
+  }
+}
+Assets {
   Id: 14198738028524197766
   Name: "Text 01: F"
   PlatformAssetType: 1
@@ -689,6 +725,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_amethyst"
+  }
+}
+Assets {
+  Id: 13984265137503490836
+  Name: "Energy Tube Glow"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "Energy_Tube_Glow"
   }
 }
 Assets {
@@ -818,6 +863,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13254226986252267120
+  Name: "Container - Rectangle Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_rectangle_thin_ref"
+  }
+}
+Assets {
   Id: 13194851458637195045
   Name: "Wallpaper Geometric 01"
   PlatformAssetType: 2
@@ -878,6 +932,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F5_Text_014"
+  }
+}
+Assets {
+  Id: 12848943020247271974
+  Name: "Rubber Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_rubber_old_001_uv_ref"
   }
 }
 Assets {
@@ -980,6 +1043,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11897574739724420090
+  Name: "Text 04: B"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_001"
+  }
+}
+Assets {
   Id: 11896420945063946518
   Name: "Cube - Rounded"
   PlatformAssetType: 1
@@ -1076,6 +1148,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_008"
+  }
+}
+Assets {
+  Id: 11108125596268740258
+  Name: "Text 04: ~"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_036"
   }
 }
 Assets {
@@ -1214,6 +1295,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10642601708273671792
+  Name: "Text 05: )"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F6_Text_046"
+  }
+}
+Assets {
   Id: 10620489693263839601
   Name: "Fire Hydrant"
   PlatformAssetType: 1
@@ -1274,6 +1364,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_star_faceted_6pointed_001"
+  }
+}
+Assets {
+  Id: 10128789493666787272
+  Name: "Text 04: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_014"
   }
 }
 Assets {
@@ -1466,6 +1565,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9233035890025242529
+  Name: "Pipe - Quarter Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_pipe_wedge_001"
+  }
+}
+Assets {
+  Id: 9223391083233434823
+  Name: "Cylinder - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_003"
+  }
+}
+Assets {
   Id: 9164703814770678060
   Name: "Text 05: 1"
   PlatformAssetType: 1
@@ -1607,6 +1724,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_door_001"
+  }
+}
+Assets {
+  Id: 8165143622034885339
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
   }
 }
 Assets {
@@ -1844,6 +1970,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6157711858907400962
+  Name: "Modern Weapon Accessory - Shell Clip"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_acc_shellclip_001"
+  }
+}
+Assets {
   Id: 6052249488002545178
   Name: "Carpet 02"
   PlatformAssetType: 2
@@ -1988,6 +2123,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5351428073291024820
+  Name: "Opaque Emissive"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
+  }
+}
+Assets {
   Id: 5325106541929142565
   Name: "Text 03: 4"
   PlatformAssetType: 1
@@ -2069,6 +2213,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4866655027581312547
+  Name: "Text 04: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_013"
+  }
+}
+Assets {
   Id: 4769998520372118912
   Name: "Text 05: I"
   PlatformAssetType: 1
@@ -2105,6 +2258,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4702649475019931224
+  Name: "Pipe - 90-Degree Long"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_002"
+  }
+}
+Assets {
   Id: 4687422186836850970
   Name: "Plane Triangle - One Sided Isosceles"
   PlatformAssetType: 1
@@ -2123,6 +2285,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4554393185617522851
+  Name: "Text 04: M"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_012"
+  }
+}
+Assets {
   Id: 4466615967435177852
   Name: "Wood Siding White"
   PlatformAssetType: 2
@@ -2138,6 +2309,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_001"
+  }
+}
+Assets {
+  Id: 4301721173422020955
+  Name: "Text 04: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_019"
   }
 }
 Assets {
@@ -2255,6 +2435,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fantasy_chest_treasure_pile_001_ref"
+  }
+}
+Assets {
+  Id: 3414082008026988694
+  Name: "Text 04: !"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_037"
   }
 }
 Assets {
@@ -2501,6 +2690,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1883428768330835747
+  Name: "Text 04: D"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_003"
+  }
+}
+Assets {
   Id: 1858760983516352736
   Name: "Metal Diamond Plates 01"
   PlatformAssetType: 2
@@ -2561,6 +2759,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_rebar_004_ref"
+  }
+}
+Assets {
+  Id: 1246775219677444116
+  Name: "Text 04: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_004"
   }
 }
 Assets {
@@ -2663,6 +2870,15 @@ Assets {
   }
 }
 Assets {
+  Id: 523490754419721002
+  Name: "Text 04: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_000"
+  }
+}
+Assets {
   Id: 364458167449529418
   Name: "Hill 04"
   PlatformAssetType: 1
@@ -2687,6 +2903,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 193948643737864016
+  Name: "Cylinder - Chamfered"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_chamfer"
   }
 }
 Assets {

@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17280976981586363031
+  Name: "Corrugated Sheet Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -125,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15470839508926973168
+  Name: "Sphere - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_001"
+  }
+}
+Assets {
   Id: 15274591245069974323
   Name: "Ring - Quarter Thin"
   PlatformAssetType: 1
@@ -176,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_diamond_6_sided_polished_001"
+  }
+}
+Assets {
+  Id: 14237220486008111868
+  Name: "Knife - Blade"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_knife_001"
   }
 }
 Assets {
@@ -233,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12755745315329926573
+  Name: "Cone - Truncated Hollow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_001"
+  }
+}
+Assets {
   Id: 12665761949314103200
   Name: "Cone - Truncated Hollow Thin"
   PlatformAssetType: 1
@@ -257,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_coupling_005_ref"
+  }
+}
+Assets {
+  Id: 12589698415994353714
+  Name: "Bone Human Skull 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_01_ref"
   }
 }
 Assets {
@@ -314,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11288108501952189827
-  Name: "Prism - 4-Sided Trapezoid Right"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_trapezoid_001"
-  }
-}
-Assets {
   Id: 11246720519946599323
   Name: "Whitebox Stairs 01 Straight 150cm"
   PlatformAssetType: 1
@@ -347,15 +383,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
-  }
-}
-Assets {
-  Id: 10931789283627707985
-  Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_stairs_spiral_trim_001_4m"
   }
 }
 Assets {
@@ -413,15 +440,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9691585235102710834
-  Name: "Metal Iron 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_001"
-  }
-}
-Assets {
   Id: 9665293714341334656
   Name: "Fantasy Pommel 05"
   PlatformAssetType: 1
@@ -431,21 +449,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9639425225407495965
-  Name: "Pyramid - 4-Sided Truncated"
-  PlatformAssetType: 1
+  Id: 8898705476164105834
+  Name: "Fantasy Human Gal 2"
+  PlatformAssetType: 17
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_truncated_001"
-  }
-}
-Assets {
-  Id: 8699843261398957836
-  Name: "Wedge - Convex"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_convex_001"
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_001_ref"
   }
 }
 Assets {
@@ -500,6 +509,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
+  Id: 7202307395712524294
+  Name: "Decal Dirt Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_dirt_patch_001"
   }
 }
 Assets {
@@ -584,15 +602,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4798953546912878943
-  Name: "Urban Pipe Clamp 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_clamp_003_ref"
-  }
-}
-Assets {
   Id: 4253147568344604944
   Name: "Metal Painted Basic 01"
   PlatformAssetType: 2
@@ -638,15 +647,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2723232960546970913
-  Name: "Wood Floor Dark"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_floor_dark_001_uv"
-  }
-}
-Assets {
   Id: 2445277789746998095
   Name: "Ring - Quarter Thick"
   PlatformAssetType: 1
@@ -683,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1474317466637388472
+  Name: "Knife - Handle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_knife_handle_001"
+  }
+}
+Assets {
   Id: 1189657888416972790
   Name: "Sci-fi Chest Rare Base 01"
   PlatformAssetType: 1
@@ -701,12 +710,12 @@ Assets {
   }
 }
 Assets {
-  Id: 554593104593288016
-  Name: "Asphalt 01"
-  PlatformAssetType: 2
+  Id: 916665379155427451
+  Name: "Capsule"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_asphault_001"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_capsule_001"
   }
 }
 Assets {

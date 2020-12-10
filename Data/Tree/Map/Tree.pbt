@@ -1,44 +1,6 @@
 ﻿Name: "Map"
 RootId: 8701062948484923034
 Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 100
-      Y: 100
-      Z: 1
-    }
-  }
-  ParentId: 8701062948484923034
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 10005074784157121906
   Name: "Default Sky"
   Transform {
@@ -95,9 +57,8 @@ Objects {
     Overrides {
       Name: "bp:Light Color"
       Color {
-        R: 1
-        G: 0.955973327
-        B: 0.73791039
+        G: 0.5
+        B: 0.440397501
         A: 1
       }
     }
@@ -123,7 +84,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.5
+      Float: 5
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -149,9 +110,8 @@ Objects {
     Overrides {
       Name: "bp:Light Shaft Bloom Tint"
       Color {
-        R: 1
-        G: 0.998476863
-        B: 0.77
+        G: 0.320000052
+        B: 0.22463581
         A: 1
       }
     }
@@ -266,27 +226,24 @@ Objects {
     Overrides {
       Name: "bp:Zenith Color"
       Color {
-        R: 0.0243181027
-        G: 0.0633459464
-        B: 0.212230757
+        G: 0.159867495
+        B: 0.169999957
         A: 0.886000037
       }
     }
     Overrides {
       Name: "bp:Horizon Color"
       Color {
-        R: 0.489468127
-        G: 0.480969489
-        B: 0.623960376
+        G: 0.24000001
+        B: 0.230463594
         A: 0.895000041
       }
     }
     Overrides {
       Name: "bp:Haze Color"
       Color {
-        R: 0.590618849
-        G: 0.590618849
-        B: 0.701101899
+        G: 0.269999981
+        B: 0.17344375
         A: 1
       }
     }
@@ -300,27 +257,26 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Rim Brightness"
-      Float: 50
+      Float: 2
     }
     Overrides {
       Name: "bp:Cloud Opacity"
-      Float: 0
+      Float: 0.127685875
     }
     Overrides {
       Name: "bp:Cloud Ambient Color"
       Color {
-        R: 2
-        G: 2
-        B: 2
+        R: 0.425165415
+        G: 1
+        B: 0.38
         A: 1
       }
     }
     Overrides {
       Name: "bp:Cloud Color"
       Color {
-        R: 2
-        G: 2
-        B: 2
+        G: 0.147814527
+        B: 0.179999948
         A: 1
       }
     }
@@ -330,11 +286,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Lighting Brightness"
-      Float: 1
+      Float: 4.28569698
     }
     Overrides {
       Name: "bp:Cloud Wisp Opacity"
-      Float: 0.4
+      Float: 1
     }
     Overrides {
       Name: "bp:Cloud Speed"
@@ -350,19 +306,70 @@ Objects {
     }
     Overrides {
       Name: "bp:High Cloud Index"
-      Int: 2
+      Enum {
+        Value: "mc:ehighaltitudecloudshapes:1"
+      }
     }
     Overrides {
       Name: "bp:High Cloud Opacity"
-      Float: 0
+      Float: 0.446853071
     }
     Overrides {
       Name: "bp:High Cloud Noise Amount"
-      Float: 0.1
+      Float: 0.548406243
     }
     Overrides {
       Name: "bp:High Cloud Noise Scale"
-      Float: 0.2
+      Float: 0.645123601
+    }
+    Overrides {
+      Name: "bp:Haze Falloff"
+      Float: 11.8440609
+    }
+    Overrides {
+      Name: "bp:Horizon Falloff"
+      Float: 4.67423391
+    }
+    Overrides {
+      Name: "bp:Clouds"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cloud Rim Color"
+      Color {
+        G: 0.24000001
+        B: 0.216158986
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Sun Behind Transmission"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Sky Influence On Clouds"
+      Float: 0.737005055
+    }
+    Overrides {
+      Name: "bp:Cloud Wisp Color"
+      Color {
+        R: 0.149999976
+        G: 1
+        B: 0.746688724
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Wisp Speed"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:High Cloud Color"
+      Color {
+        G: 0.185430408
+        B: 0.25
+        A: 1
+      }
     }
   }
   Collidable_v2 {

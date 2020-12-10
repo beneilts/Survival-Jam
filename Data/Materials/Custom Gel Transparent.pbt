@@ -46,7 +46,7 @@
       }
       Overrides {
         Name: "emissive"
-        Float: -0.0399747491
+        Float: 0.196620986
       }
       Overrides {
         Name: "inner color"
