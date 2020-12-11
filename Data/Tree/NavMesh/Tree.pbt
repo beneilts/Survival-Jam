@@ -49,7 +49,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NAVMESH_FOLDER"
+    FilePartitionName: "NAVMESH_FOLDER_1"
   }
 }
 Objects {

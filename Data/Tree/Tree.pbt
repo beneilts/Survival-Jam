@@ -23,6 +23,7 @@ Objects {
   ChildIds: 15528212611253686987
   ChildIds: 14538402050092016501
   ChildIds: 742251370243099032
+  ChildIds: 16976645359937125939
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +33,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16976645359937125939
+  Name: "Egg_NAVMESH_FOLDER"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NAVMESH_FOLDER"
   }
 }
 Objects {
@@ -132,7 +159,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true
