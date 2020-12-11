@@ -861,7 +861,7 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 10400591699290789494
+              Id: 12935204417296813970
             }
           }
           Overrides {
@@ -912,8 +912,8 @@
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              G: 0.237350941
-              B: 0.559999943
+              G: 0.124238409
+              B: 0.279999971
               A: 1
             }
           }
@@ -2297,7 +2297,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 10400591699290789494
+              Id: 12935204417296813970
             }
           }
           Overrides {
@@ -2315,8 +2315,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.237350941
-              B: 0.559999943
+              G: 0.124238409
+              B: 0.279999971
               A: 1
             }
           }

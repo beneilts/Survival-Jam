@@ -15,9 +15,9 @@
             Z: 1
           }
         }
-        ParentId: 15555015309918435850
+        ParentId: 15496654498633997455
         ChildIds: 8293288491741204778
-        ChildIds: 16609707960194446138
+        ChildIds: 3178740466775745271
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -542,15 +542,18 @@
         }
       }
       Objects {
-        Id: 16609707960194446138
-        Name: "Point Light"
+        Id: 3178740466775745271
+        Name: "Spotlight"
         Transform {
           Location {
-            X: 49.0275879
-            Y: 1.98461914
-            Z: -6.66165161
+            X: 17.3906269
+            Y: -10.66576
+            Z: 263.823792
           }
           Rotation {
+            Pitch: -89.0906372
+            Yaw: -179.999237
+            Roll: 89.9176178
           }
           Scale {
             X: 1
@@ -566,30 +569,34 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 1.22590613
+          Intensity: 32.1086388
           Color {
-            R: 1
-            G: 0.0199999809
-            B: 0.29258287
+            R: 0.877483487
+            G: 0.63
+            B: 1
             A: 1
           }
-          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 489.049347
-              PointLight {
+              AttenuationRadius: 541.814697
+              SpotLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20
                 FallOffExponent: 8
                 UseFallOffExponent: true
+                InnerConeAngle: 12.5916195
+                OuterConeAngle: 24.6358852
+                Profile {
+                  Value: "mc:espotlightprofile:basicspotlight"
+                }
               }
             }
-            MaxDrawDistance: 10000
-            MaxDistanceFadeRange: 2000
+            MaxDrawDistance: 5000
+            MaxDistanceFadeRange: 1000
           }
         }
       }
