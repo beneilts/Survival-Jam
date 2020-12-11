@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 17367449922255341506
-  Name: "DestructibleManager"
+  Id: 3403025055362370891
+  Name: "StaticPlayerEquipmentServer"
   PlatformAssetType: 3
   TextAsset {
   }

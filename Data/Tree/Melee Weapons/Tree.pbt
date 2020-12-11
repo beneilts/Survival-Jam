@@ -1,7 +1,7 @@
 ﻿Name: "Melee Weapons"
-RootId: 5034530204557236764
+RootId: 6659291811797054206
 Objects {
-  Id: 2728940229663529339
+  Id: 7339429268658403099
   Name: "Crowbar"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5034530204557236764
+  ParentId: 6659291811797054206
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11215895248104278885
+  Id: 8247148332558478850
   Name: "Katana"
   Transform {
     Location {
@@ -75,7 +75,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5034530204557236764
+  ParentId: 6659291811797054206
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -108,7 +108,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 1411183044239277274
+        Id: 2642735292296963024
       }
     }
     Overrides {
@@ -127,7 +127,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11799601656237478523
+  Id: 271556940878214929
   Name: "Morning Star"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5034530204557236764
+  ParentId: 6659291811797054206
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -173,7 +173,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 14549666573162365172
+        Id: 4423229881275659313
       }
     }
     Overrides {
@@ -192,202 +192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7365558217934766052
-  Name: "Bat"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5034530204557236764
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Baseball Bat"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 14705123974803672579
-      }
-    }
-    Overrides {
-      Name: "cs:ItemType"
-      String: "Sword"
-    }
-    Overrides {
-      Name: "cs:Rarity"
-      String: "Uncommon"
-    }
-    Overrides {
-      Name: "cs:Description"
-      String: "A hole-in-one, or something like that. I dunno, I don\'t play cricket"
-    }
-    Overrides {
-      Name: "cs:DropRotation"
-      Vector {
-        X: 30
-      }
-    }
-    Overrides {
-      Name: "cs:Item"
-      AssetReference {
-        Id: 3869894161005384758
-      }
-    }
-    Overrides {
-      Name: "cs:Item:tooltip"
-      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. If no display item is given for the Item\'s loot drop entry then it will default to dropping this and a warning will be given."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 1922429395862207033
-  Name: "Quarterstaff"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5034530204557236764
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Quarterstaff"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 3731058550162520622
-      }
-    }
-    Overrides {
-      Name: "cs:ItemType"
-      String: "Sword"
-    }
-    Overrides {
-      Name: "cs:Rarity"
-      String: "Common"
-    }
-    Overrides {
-      Name: "cs:Description"
-      String: "Primitive, but effective."
-    }
-    Overrides {
-      Name: "cs:DropRotation"
-      Vector {
-        X: 30
-      }
-    }
-    Overrides {
-      Name: "cs:Item"
-      AssetReference {
-        Id: 17965050482922036577
-      }
-    }
-    Overrides {
-      Name: "cs:Item:tooltip"
-      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. If no display item is given for the Item\'s loot drop entry then it will default to dropping this and a warning will be given."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 12372617467018523895
-  Name: "Stop Sign"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5034530204557236764
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Stop Sign"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 16476455612092899444
-      }
-    }
-    Overrides {
-      Name: "cs:ItemType"
-      String: "Sword"
-    }
-    Overrides {
-      Name: "cs:Rarity"
-      String: "Common"
-    }
-    Overrides {
-      Name: "cs:Description"
-      String: "Stop!"
-    }
-    Overrides {
-      Name: "cs:DropRotation"
-      Vector {
-        X: 30
-      }
-    }
-    Overrides {
-      Name: "cs:Item"
-      AssetReference {
-        Id: 48602748484850336
-      }
-    }
-    Overrides {
-      Name: "cs:Item:tooltip"
-      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. If no display item is given for the Item\'s loot drop entry then it will default to dropping this and a warning will be given."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 10729040939551145232
+  Id: 8249665276218705433
   Name: "Pipe"
   Transform {
     Location {
@@ -400,7 +205,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5034530204557236764
+  ParentId: 6659291811797054206
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -433,72 +238,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 81814268916731250
-      }
-    }
-    Overrides {
-      Name: "cs:Item:tooltip"
-      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. If no display item is given for the Item\'s loot drop entry then it will default to dropping this and a warning will be given."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11762479105081303573
-  Name: "Improvised Knife"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5034530204557236764
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Improvised Knife"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 9286547835689629761
-      }
-    }
-    Overrides {
-      Name: "cs:ItemType"
-      String: "Sword"
-    }
-    Overrides {
-      Name: "cs:Rarity"
-      String: "Common"
-    }
-    Overrides {
-      Name: "cs:Description"
-      String: "For your everyday stabbing needs"
-    }
-    Overrides {
-      Name: "cs:DropRotation"
-      Vector {
-        X: 30
-      }
-    }
-    Overrides {
-      Name: "cs:Item"
-      AssetReference {
-        Id: 15328159966925277124
+        Id: 14394361659127999816
       }
     }
     Overrides {

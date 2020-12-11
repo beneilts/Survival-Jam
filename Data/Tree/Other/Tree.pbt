@@ -1,7 +1,7 @@
 ﻿Name: "Other"
-RootId: 14405882020025945232
+RootId: 10099007897770232203
 Objects {
-  Id: 8046169521238622543
+  Id: 1064881346476417887
   Name: "Backpack"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14405882020025945232
-  ChildIds: 15696627274953905922
-  ChildIds: 1673755387479440159
+  ParentId: 10099007897770232203
+  ChildIds: 7624093375804326043
+  ChildIds: 2968164880331845796
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -40,7 +40,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1673755387479440159
+  Id: 2968164880331845796
   Name: "Material Duct Tape"
   Transform {
     Location {
@@ -53,7 +53,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8046169521238622543
+  ParentId: 1064881346476417887
   UnregisteredParameters {
     Overrides {
       Name: "cs:Requirement"
@@ -77,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15696627274953905922
+  Id: 7624093375804326043
   Name: "Material Cloth"
   Transform {
     Location {
@@ -90,7 +90,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8046169521238622543
+  ParentId: 1064881346476417887
   UnregisteredParameters {
     Overrides {
       Name: "cs:Requirement"

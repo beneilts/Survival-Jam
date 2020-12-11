@@ -156,6 +156,12 @@
               Y: 40
             }
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 9770511928359673738
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

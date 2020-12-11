@@ -1,7 +1,7 @@
 ﻿Name: "Consumables"
-RootId: 10103753843169771734
+RootId: 6752490674293297326
 Objects {
-  Id: 10230279023562423738
+  Id: 17186543462222948665
   Name: "First Aid"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -76,7 +76,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8632941699564601547
+  Id: 4803391735695922529
   Name: "Jar Food"
   Transform {
     Location {
@@ -89,7 +89,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -151,7 +151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6700726070530972821
+  Id: 8380877207746762372
   Name: "Canned Meat"
   Transform {
     Location {
@@ -164,7 +164,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -197,7 +197,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 14560648013170303850
+        Id: 1013676948675164625
       }
     }
     Overrides {
@@ -226,7 +226,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3138970619636961708
+  Id: 10631862627814815563
   Name: "Water Jug"
   Transform {
     Location {
@@ -239,7 +239,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -301,7 +301,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8559872823016151699
+  Id: 8551341579492309202
   Name: "Water Bottle"
   Transform {
     Location {
@@ -314,7 +314,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -376,7 +376,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11285630371088995988
+  Id: 15090261605185125731
   Name: "Fruit"
   Transform {
     Location {
@@ -389,7 +389,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -422,7 +422,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 3445736958296126155
+        Id: 14226741508738767517
       }
     }
     Overrides {
@@ -451,7 +451,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8662132468685464650
+  Id: 3096888278895626855
   Name: "Bandages"
   Transform {
     Location {
@@ -464,7 +464,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10103753843169771734
+  ParentId: 6752490674293297326
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"

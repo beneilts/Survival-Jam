@@ -15,3 +15,5 @@ end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
+
+print("COMPONENT SPAWNER COMPILED")

@@ -1,7 +1,7 @@
 ﻿Name: "Ranged Weapons"
-RootId: 3084494242980781654
+RootId: 3468558964361786642
 Objects {
-  Id: 17694914159563654705
+  Id: 714044452354166113
   Name: "Rifle"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -47,7 +47,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 5535209129402794756
+        Id: 16673779213639695017
       }
     }
     Overrides {
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16964911341844149028
+  Id: 4395647348859971
   Name: "SMG"
   Transform {
     Location {
@@ -79,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -112,7 +112,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 3060592816059166126
+        Id: 1321816711737012548
       }
     }
     Overrides {
@@ -131,7 +131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3352506758409339626
+  Id: 7737903761154206355
   Name: "Shotgun"
   Transform {
     Location {
@@ -144,7 +144,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -177,7 +177,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 9479680073751305149
+        Id: 2727752583058404006
       }
     }
     Overrides {
@@ -196,7 +196,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8166265556168556929
+  Id: 6773911643864215346
   Name: "Crossbow"
   Transform {
     Location {
@@ -209,7 +209,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -242,7 +242,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 17074869750040684942
+        Id: 1569494958090835546
       }
     }
     Overrides {
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9796382557741066416
+  Id: 10222294274874473073
   Name: "Revolver"
   Transform {
     Location {
@@ -274,7 +274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -307,7 +307,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 13607045676803140010
+        Id: 16487796236911351047
       }
     }
     Overrides {
@@ -326,7 +326,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17474717219864284800
+  Id: 12596601045754892108
   Name: "Attachments"
   Transform {
     Location {
@@ -339,7 +339,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -352,7 +352,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15283344860884001887
+  Id: 4906976296080720491
   Name: "UpgradedWeapons"
   Transform {
     Location {
@@ -365,7 +365,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3084494242980781654
+  ParentId: 3468558964361786642
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

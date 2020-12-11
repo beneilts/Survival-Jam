@@ -1,7 +1,7 @@
 ﻿Name: "Ammo"
-RootId: 13510394926940001833
+RootId: 15535159190495177121
 Objects {
-  Id: 14114318883035569389
+  Id: 3623483391030893475
   Name: "Bolts"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13510394926940001833
+  ParentId: 15535159190495177121
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -70,7 +70,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1339639655597619560
+  Id: 9517436961246971475
   Name: "5.56 Rounds"
   Transform {
     Location {
@@ -83,7 +83,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13510394926940001833
+  ParentId: 15535159190495177121
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -139,7 +139,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8263866923211580043
+  Id: 6971715141030059275
   Name: ".45"
   Transform {
     Location {
@@ -152,7 +152,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13510394926940001833
+  ParentId: 15535159190495177121
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -208,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5083133681002203761
+  Id: 1332112195608866128
   Name: "9mm"
   Transform {
     Location {
@@ -221,7 +221,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13510394926940001833
+  ParentId: 15535159190495177121
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -277,7 +277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15138410120279994046
+  Id: 16237545556390976662
   Name: "Shells"
   Transform {
     Location {
@@ -290,7 +290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13510394926940001833
+  ParentId: 15535159190495177121
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"

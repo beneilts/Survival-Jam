@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3562206840004039115
-  Name: "Fantasy Craft Stone 023"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Crafting_Stone_023"
-  }
-}
-Assets {
   Id: 3159990644048973776
   Name: "Fantasy Wood 001"
   PlatformAssetType: 9

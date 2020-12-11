@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 1116760160694603255
-  Name: "NPCManager"
+  Id: 2410645964140835056
+  Name: "CombatWrapPlayer"
   PlatformAssetType: 3
   TextAsset {
   }

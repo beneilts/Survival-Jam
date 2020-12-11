@@ -3,11 +3,13 @@
     ===============================
     Manages the replication of inventories across client/server.
 ]]
-
+print("-here 0")
 local Inventory = require(script:GetCustomProperty("ItemSystems_Inventory"))
 local Database = require(script:GetCustomProperty("ItemSystems_Database"))
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 local COMPONENT = script:GetCustomProperty("InventoryComponent"):WaitForObject()
+
+print("-here 1")
 
 local equipSlotTypes = {
     { slotType = "Head" },
@@ -28,10 +30,11 @@ while not OWNER do
     end
 end
 
+print("-here 2")
 ---------------------------------------------------------------------------------------------------------
 -- Wait until the database has fully loaded to proceed.
 Database:WaitUntilLoaded()
-
+print("-here 3")
 ---------------------------------------------------------------------------------------------------------
 -- Server loads the hash from storage, loads the hash into a server inventory, and sets the network property so the client retrieves it.
 local function ServerLoadInventory()

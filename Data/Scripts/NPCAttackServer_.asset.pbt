@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 5927220524009298293
-  Name: "NPCAttackServer"
+  Name: "NPCAttackServer_"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

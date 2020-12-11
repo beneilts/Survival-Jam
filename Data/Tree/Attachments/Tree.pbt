@@ -1,7 +1,7 @@
 ﻿Name: "Attachments"
-RootId: 17474717219864284800
+RootId: 12596601045754892108
 Objects {
-  Id: 17836403231783764496
+  Id: 16622695596086470879
   Name: "Red-dot"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17474717219864284800
+  ParentId: 12596601045754892108
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"

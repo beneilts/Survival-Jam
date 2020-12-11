@@ -293,6 +293,12 @@
               SubObjectId: 2903920672381005517
             }
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 9770511928359673738
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -381,6 +387,18 @@
           Overrides {
             Name: "cs:ProjectileHoming"
             Bool: true
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 9770511928359673738
+            }
+          }
+          Overrides {
+            Name: "cs:DestructibleManager"
+            AssetReference {
+              Id: 17367449922255341506
+            }
           }
         }
         WantsNetworking: true

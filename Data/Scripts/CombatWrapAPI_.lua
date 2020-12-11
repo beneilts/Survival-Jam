@@ -49,7 +49,7 @@ end
 -- ApplyDamage()
 function API.ApplyDamage(object, dmg, source, pos, rot)
 	Events.Broadcast("GoingToTakeDamage", object, dmg, source)
-	
+
 	CROSS_CONTEXT_CALLER().Call(function()
 		GetWrapperFor(object).ApplyDamage(object, dmg, source, pos, rot)
 	end)

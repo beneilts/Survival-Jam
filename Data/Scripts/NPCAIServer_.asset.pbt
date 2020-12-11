@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 13645484765276120961
-  Name: "NPCAIServer"
+  Name: "NPCAIServer_"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

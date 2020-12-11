@@ -11,10 +11,10 @@ local INVENTORY_VIEW_HOTKEY = script:GetCustomProperty("InventoryViewHotkey")
 local SFX_OPEN = script:GetCustomProperty("SFX_InventoryOpen")
 local SFX_CLOSE = script:GetCustomProperty("SFX_InventoryClose")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
-
+print("here 1")
 while not LOCAL_PLAYER.clientUserData.inventory do Task.Wait() end
 local inventory = LOCAL_PLAYER.clientUserData.inventory
-
+print("here 2")
 local isCooldown = false -- Prevents hitting the broadcast limit when opening any window.
 
 -- Registers windows to the local player
@@ -128,3 +128,5 @@ Events.Connect("ToggleUI", function(state)
         Container.visibility = Visibility.FORCE_OFF
     end
 end)
+
+print("UI CONTROLLER COMPILED")

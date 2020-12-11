@@ -1,7 +1,7 @@
 ﻿Name: "PlayerStats"
-RootId: 17220968863124608226
+RootId: 11537121350834369709
 Objects {
-  Id: 8063413222329982615
+  Id: 6734391301554164620
   Name: "Client"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17220968863124608226
+  ParentId: 11537121350834369709
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -25,7 +25,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18243688204913220506
+  Id: 2515330173259750709
   Name: "StatSheetComponentSpawner"
   Transform {
     Location {
@@ -38,7 +38,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17220968863124608226
+  ParentId: 11537121350834369709
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentTemplate"
@@ -55,12 +55,12 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 16508647158301111682
+      Id: 729159566288998549
     }
   }
 }
 Objects {
-  Id: 10537514691081887250
+  Id: 10002592804134261073
   Name: "Stats"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17220968863124608226
+  ParentId: 11537121350834369709
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -62,7 +62,7 @@ function MeleeAttack(other)
 		local pos = (otherPos + meleePos) / 2
 		local rot = Rotation.New(otherPos - meleePos, Vector3.UP)
 		
-		local isHeadshot = COMBAT().IsHeadshot(other, nil, pos)
+		--local isHeadshot = COMBAT().IsHeadshot(other, nil, pos)
 		--if isHeadshot then print("HEADSHOT!") end
 		
 		local damageRange = DAMAGE_RANGE_NPCS
@@ -72,8 +72,8 @@ function MeleeAttack(other)
 			else
 				damageRange = DAMAGE_RANGE_PLAYERS
 			end
-		elseif isHeadshot then
-			damageRange = HEADSHOT_NPCS
+		--elseif isHeadshot then
+			--damageRange = HEADSHOT_NPCS
 		end
 		
 		local minDmg = CoreMath.Round(damageRange.x)
@@ -85,6 +85,7 @@ function MeleeAttack(other)
 		dmg.sourcePlayer = ABILITY.owner
 		dmg.sourceAbility = ABILITY
 				
+		print('APPLYING DAMAGE')
 		COMBAT().ApplyDamage(other, dmg, ABILITY.owner, pos, rot)
 	end
 end
@@ -173,3 +174,5 @@ table.insert(scriptConnections,  script.destroyEvent:Connect( function()
     end
 end)
 )
+
+print("MELEE ABILITY SERVER COMPILED")

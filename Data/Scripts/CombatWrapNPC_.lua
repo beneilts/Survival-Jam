@@ -63,7 +63,6 @@ end
 -- ApplyDamage()
 function wrapper.ApplyDamage(npc, dmg, source, pos, rot)
 	if not DESTRUCTIBLE_MANAGER() then return end
-	
 	local hitResult = dmg:GetHitResult()
 	if hitResult and not pos then
 		pos = hitResult:GetImpactPosition()

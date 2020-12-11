@@ -1,6 +1,64 @@
 ﻿Name: "Gameplay Systems"
 RootId: 8874313960761186175
 Objects {
+  Id: 9057126954551630540
+  Name: "ItemSystems"
+  Transform {
+    Location {
+      X: 1262.5
+      Y: 212.5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8874313960761186175
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ItemSystems"
+  }
+}
+Objects {
+  Id: 17922284871528310286
+  Name: "Crafting System"
+  Transform {
+    Location {
+      X: 1262.5
+      Y: 212.5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8874313960761186175
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Crafting System"
+  }
+}
+Objects {
   Id: 1059683662952991965
   Name: "NavMesh"
   Transform {
@@ -45,9 +103,9 @@ Objects {
     }
   }
   ParentId: 8874313960761186175
-  ChildIds: 13518194787893651904
   ChildIds: 2532804040063567652
   ChildIds: 16409951758789048375
+  ChildIds: 15902866457343991635
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -56,6 +114,53 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 15902866457343991635
+  Name: "CombatWrapAPI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4655661909382734501
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ModuleManager"
+      AssetReference {
+        Id: 9770511928359673738
+      }
+    }
+    Overrides {
+      Name: "cs:CombatWrapNPC"
+      AssetReference {
+        Id: 582809342652501395
+      }
+    }
+    Overrides {
+      Name: "cs:CombatWrapPlayer"
+      AssetReference {
+        Id: 10238036667010707875
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5584249133191833858
+    }
   }
 }
 Objects {
@@ -115,35 +220,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13518194787893651904
-  Name: "CombatWrapAPI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4655661909382734501
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5584249133191833858
-    }
-  }
-}
-Objects {
   Id: 6924151295851257062
   Name: "Sprint"
   Transform {
@@ -169,64 +245,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Sprint"
-  }
-}
-Objects {
-  Id: 11499263431750851211
-  Name: "Crafting System"
-  Transform {
-    Location {
-      X: 1262.5
-      Y: 212.5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8874313960761186175
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Crafting System"
-  }
-}
-Objects {
-  Id: 12484155578060451091
-  Name: "ItemSystems"
-  Transform {
-    Location {
-      X: 1262.5
-      Y: 212.5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8874313960761186175
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "ItemSystems"
   }
 }
 Objects {
@@ -649,7 +667,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LobbyDuration"
-      Float: 10
+      Float: 5
     }
     Overrides {
       Name: "cs:RoundHasDuration"
