@@ -1,6 +1,349 @@
 ﻿Name: "ERICA"
 RootId: 742251370243099032
 Objects {
+  Id: 6804766024272759616
+  Name: "Craftsman Porch Fence Post 01"
+  Transform {
+    Location {
+      X: 5628.52588
+      Y: 911.347656
+      Z: -3227.30957
+    }
+    Rotation {
+      Yaw: -44.5083
+    }
+    Scale {
+      X: 11.093648
+      Y: 11.093648
+      Z: 19.1886101
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 3911789973918619249
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 12.1029367
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 12.5526571
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7884247795071825557
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13117630873412774952
+  Name: "Craftsman Porch Fence Post 01"
+  Transform {
+    Location {
+      X: 5852.83252
+      Y: 1525.73645
+      Z: -2700.6687
+    }
+    Rotation {
+      Yaw: -71.038208
+    }
+    Scale {
+      X: 7.30273676
+      Y: 7.30273676
+      Z: 12.6314964
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 3911789973918619249
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 12.1029367
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 12.5526571
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7884247795071825557
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 164232230050970610
+  Name: "Craftsman Porch Fence Post 01"
+  Transform {
+    Location {
+      X: 5487.90527
+      Y: 3199.25024
+      Z: -2244.71582
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.63580322
+      Y: 5.63580322
+      Z: 9.74821281
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 3911789973918619249
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 12.1029367
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 12.5526571
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7884247795071825557
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15135128777884390518
+  Name: "Craftsman Porch Fence Post 01"
+  Transform {
+    Location {
+      X: 5293.86182
+      Y: 2527.23828
+      Z: -3227.30933
+    }
+    Rotation {
+      Yaw: -61.8743
+    }
+    Scale {
+      X: 7.4197278
+      Y: 7.4197278
+      Z: 16.8594532
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 3911789973918619249
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 12.1029367
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 12.5526571
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7884247795071825557
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3517692317012150652
+  Name: "Craftsman Porch Fence Post 01"
+  Transform {
+    Location {
+      X: 6759.38672
+      Y: 2349.60083
+      Z: -3756.31909
+    }
+    Rotation {
+    }
+    Scale {
+      X: 9.76361465
+      Y: 21.3559361
+      Z: 22.1853409
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 3911789973918619249
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 12.1029367
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 12.5526571
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7884247795071825557
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 4663639283261592544
   Name: "Female Splicer 2"
   Transform {
@@ -16025,7 +16368,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 29
+            Yaw: 71.9097595
           }
         }
         Overrides {
