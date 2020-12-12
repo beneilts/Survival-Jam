@@ -161,15 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17803105409590620697
-  Name: "Text 04: I"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_008"
-  }
-}
-Assets {
   Id: 17770719014028937829
   Name: "Pyramid - 4-Sided Truncated Hollow Thick"
   PlatformAssetType: 1
@@ -944,15 +935,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13254226986252267120
-  Name: "Container - Rectangle Thin 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_rectangle_thin_ref"
-  }
-}
-Assets {
   Id: 13194851458637195045
   Name: "Wallpaper Geometric 01"
   PlatformAssetType: 2
@@ -1142,15 +1124,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11897574739724420090
-  Name: "Text 04: B"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_001"
-  }
-}
-Assets {
   Id: 11896420945063946518
   Name: "Cube - Rounded"
   PlatformAssetType: 1
@@ -1247,15 +1220,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_008"
-  }
-}
-Assets {
-  Id: 11108125596268740258
-  Name: "Text 04: ~"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_036"
   }
 }
 Assets {
@@ -1403,15 +1367,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10642601708273671792
-  Name: "Text 05: )"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_046"
-  }
-}
-Assets {
   Id: 10620489693263839601
   Name: "Fire Hydrant"
   PlatformAssetType: 1
@@ -1490,15 +1445,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F5_Text_005"
-  }
-}
-Assets {
-  Id: 10128789493666787272
-  Name: "Text 04: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_014"
   }
 }
 Assets {
@@ -2159,15 +2105,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6157711858907400962
-  Name: "Modern Weapon Accessory - Shell Clip"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_acc_shellclip_001"
-  }
-}
-Assets {
   Id: 6052249488002545178
   Name: "Carpet 02"
   PlatformAssetType: 2
@@ -2420,15 +2357,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4866655027581312547
-  Name: "Text 04: N"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_013"
-  }
-}
-Assets {
   Id: 4769998520372118912
   Name: "Text 05: I"
   PlatformAssetType: 1
@@ -2492,15 +2420,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4554393185617522851
-  Name: "Text 04: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_012"
-  }
-}
-Assets {
   Id: 4466615967435177852
   Name: "Wood Siding White"
   PlatformAssetType: 2
@@ -2516,15 +2435,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_001"
-  }
-}
-Assets {
-  Id: 4301721173422020955
-  Name: "Text 04: T"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_019"
   }
 }
 Assets {
@@ -2642,15 +2552,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fantasy_chest_treasure_pile_001_ref"
-  }
-}
-Assets {
-  Id: 3414082008026988694
-  Name: "Text 04: !"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_037"
   }
 }
 Assets {
@@ -2897,6 +2798,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2058831921250921273
+  Name: "Text 05: H"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F6_Text_007"
+  }
+}
+Assets {
   Id: 2029515409028393758
   Name: "Hill 05"
   PlatformAssetType: 1
@@ -3119,15 +3029,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_04_ref"
-  }
-}
-Assets {
-  Id: 523490754419721002
-  Name: "Text 04: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_000"
   }
 }
 Assets {

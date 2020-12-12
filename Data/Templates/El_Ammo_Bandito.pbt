@@ -15,11 +15,12 @@
             Z: 1
           }
         }
-        ParentId: 3773593201585551681
+        ParentId: 10608531480445974311
         ChildIds: 14033535731804292461
         ChildIds: 17569631228036866988
         ChildIds: 3890524710189249387
         ChildIds: 5057677646768057979
+        ChildIds: 4327265253914153956
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -451,6 +452,9 @@
         }
         ParentId: 363856579515576826
         ChildIds: 16859119809377716069
+        ChildIds: 1638355359096102249
+        ChildIds: 16592688966769216566
+        ChildIds: 16665144962138649529
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -466,6 +470,9 @@
         Name: "Point Light"
         Transform {
           Location {
+            X: -387.473145
+            Y: -53.2702637
+            Z: -24.4875488
           }
           Rotation {
             Yaw: 179.999969
@@ -484,11 +491,11 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 2
+          Intensity: 5.90090942
           Color {
             R: 1
-            G: 0.366225123
-            B: 0.339999974
+            G: 0.57
+            B: 0.937350869
             A: 1
           }
           CastShadows: true
@@ -498,7 +505,166 @@
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 200
+              AttenuationRadius: 622.766052
+              PointLight {
+                SourceRadius: 20
+                SoftSourceRadius: 20
+                FallOffExponent: 8
+                UseFallOffExponent: true
+              }
+            }
+            MaxDrawDistance: 10000
+            MaxDistanceFadeRange: 2000
+          }
+        }
+      }
+      Objects {
+        Id: 1638355359096102249
+        Name: "Point Light"
+        Transform {
+          Location {
+            X: 243.448
+            Y: -438.507385
+            Z: -24.4875488
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17569631228036866988
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 5.90090942
+          Color {
+            R: 1
+            G: 0.57
+            B: 0.937350869
+            A: 1
+          }
+          CastShadows: true
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 622.766052
+              PointLight {
+                SourceRadius: 20
+                SoftSourceRadius: 20
+                FallOffExponent: 8
+                UseFallOffExponent: true
+              }
+            }
+            MaxDrawDistance: 10000
+            MaxDistanceFadeRange: 2000
+          }
+        }
+      }
+      Objects {
+        Id: 16592688966769216566
+        Name: "Point Light"
+        Transform {
+          Location {
+            X: -6.49047852
+            Y: -46.4741211
+            Z: -89.2176514
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17569631228036866988
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 2.41858387
+          Color {
+            R: 0.45
+            G: 1
+            B: 0.923509896
+            A: 1
+          }
+          CastShadows: true
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 872.657715
+              PointLight {
+                SourceRadius: 20
+                SoftSourceRadius: 20
+                FallOffExponent: 8
+                UseFallOffExponent: true
+              }
+            }
+            MaxDrawDistance: 10000
+            MaxDistanceFadeRange: 2000
+          }
+        }
+      }
+      Objects {
+        Id: 16665144962138649529
+        Name: "Point Light"
+        Transform {
+          Location {
+            X: -6.49047852
+            Y: 9.4744873
+            Z: -66.4883423
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17569631228036866988
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 2.41858387
+          Color {
+            R: 0.869271517
+            G: 0.580000043
+            B: 1
+            A: 1
+          }
+          CastShadows: true
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 1705.63
               PointLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20
@@ -26685,6 +26851,410 @@
         CoreMesh {
           MeshAsset {
             Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4327265253914153956
+        Name: "Ammo_Box"
+        Transform {
+          Location {
+            X: 6.55102539
+            Y: -20.3081055
+            Z: 51.9758911
+          }
+          Rotation {
+            Pitch: 15.660223
+            Yaw: 90
+          }
+          Scale {
+            X: 1.36596656
+            Y: 1.36596656
+            Z: 1.36596656
+          }
+        }
+        ParentId: 363856579515576826
+        ChildIds: 7206968938603766277
+        ChildIds: 2451044568666445114
+        ChildIds: 15276991808123452649
+        ChildIds: 9329149714608080546
+        ChildIds: 1625307003007325097
+        ChildIds: 4508192149188838522
+        ChildIds: 1430635379059962612
+        ChildIds: 16498016539880440719
+        ChildIds: 14863132597841540581
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 7206968938603766277
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: -10.7940674
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2451044568666445114
+        Name: "Container - Rectangle Thin 01"
+        Transform {
+          Location {
+            X: 0.217041016
+            Y: -1.42358398
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.145264164
+            Y: 0.145264164
+            Z: 0.0617204495
+          }
+        }
+        ParentId: 4327265253914153956
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18033297229984528543
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13254226986252267120
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15276991808123452649
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: -7.39318848
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9329149714608080546
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: -0.391235352
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1625307003007325097
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: -3.79211426
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4508192149188838522
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: 6.57189941
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1430635379059962612
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: 3.17102051
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16498016539880440719
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: -0.0407714844
+            Y: 10.9255371
+            Z: 6.44091797
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14863132597841540581
+        Name: "Modern Weapon Accessory - Shell Clip"
+        Transform {
+          Location {
+            X: 0.0678710938
+            Y: 3.12414551
+            Z: 9.02313232
+          }
+          Rotation {
+            Pitch: -1.28763402
+            Yaw: -118.800018
+            Roll: 89.4445801
+          }
+          Scale {
+            X: 0.692737877
+            Y: 0.692737877
+            Z: 0.692737877
+          }
+        }
+        ParentId: 4327265253914153956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6157711858907400962
           }
           Teams {
             IsTeamCollisionEnabled: true

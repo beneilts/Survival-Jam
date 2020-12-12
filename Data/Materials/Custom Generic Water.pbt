@@ -10,6 +10,22 @@
         Name: "speed"
         Float: 0
       }
+      Overrides {
+        Name: "emissive"
+        Float: 0
+      }
+      Overrides {
+        Name: "opacity"
+        Float: 0
+      }
+      Overrides {
+        Name: "opacity distance"
+        Float: 116.133629
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 1
+      }
     }
     Assets {
       Id: 12177508725944735604

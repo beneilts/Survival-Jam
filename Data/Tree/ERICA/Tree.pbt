@@ -17982,6 +17982,10 @@ Objects {
   ChildIds: 6647176050650637028
   ChildIds: 343626249572887076
   ChildIds: 5260722787592654766
+  ChildIds: 5028189532582201485
+  ChildIds: 6604734327790524954
+  ChildIds: 7136260302151963758
+  ChildIds: 15664744501408765707
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17990,6 +17994,198 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 15664744501408765707
+  Name: "Kelp Tile 02"
+  Transform {
+    Location {
+      X: -812.972412
+      Y: 139.366211
+      Z: -202.907257
+    }
+    Rotation {
+      Yaw: -33.0112
+    }
+    Scale {
+      X: 2.16858673
+      Y: 2.16858673
+      Z: 2.16858673
+    }
+  }
+  ParentId: 7117979099447727303
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 15567677050420280532
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16943753699623516784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7136260302151963758
+  Name: "Kelp Tile 02"
+  Transform {
+    Location {
+      X: -544.243652
+      Y: -35.2232666
+      Z: -202.907257
+    }
+    Rotation {
+      Yaw: -33.0111694
+    }
+    Scale {
+      X: 2.16858673
+      Y: 2.16858673
+      Z: 2.16858673
+    }
+  }
+  ParentId: 7117979099447727303
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 15567677050420280532
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16943753699623516784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6604734327790524954
+  Name: "Kelp Tile 02"
+  Transform {
+    Location {
+      X: -947.813293
+      Y: 66.1088867
+      Z: 133.961456
+    }
+    Rotation {
+      Yaw: -33.0111389
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7117979099447727303
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 15567677050420280532
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16943753699623516784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5028189532582201485
+  Name: "Kelp Tile 02"
+  Transform {
+    Location {
+      X: -232.995972
+      Y: -237.436401
+      Z: 7.82605
+    }
+    Rotation {
+      Yaw: -33.0111389
+    }
+    Scale {
+      X: 1.27937198
+      Y: 1.27937198
+      Z: 1.27937198
+    }
+  }
+  ParentId: 7117979099447727303
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 15567677050420280532
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16943753699623516784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -19363,6 +19559,7 @@ Objects {
   ChildIds: 5303145286172059353
   ChildIds: 6885442978590527634
   ChildIds: 12449188187713634319
+  ChildIds: 16804083964932508195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19371,6 +19568,53 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 16804083964932508195
+  Name: "Kelp Tile 02"
+  Transform {
+    Location {
+      X: -376.494629
+      Y: 69.6906738
+      Z: 133.96167
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.27937198
+      Y: 1.27937198
+      Z: 1.27937198
+    }
+  }
+  ParentId: 16282158729941629274
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 15567677050420280532
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16943753699623516784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -34495,6 +34739,8 @@ Objects {
   ChildIds: 7901925190138770330
   ChildIds: 16538521955806096304
   ChildIds: 13207061277525885463
+  ChildIds: 16802008294588416144
+  ChildIds: 2461917471169761093
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34510,6 +34756,122 @@ Objects {
     InstanceId: 14396691937701163903
     TemplateId: 16982605172555310320
     WasRoot: true
+  }
+}
+Objects {
+  Id: 2461917471169761093
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 1584.17432
+      Y: 785.813049
+      Z: 619.56604
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.905485749
+      Y: 0.905485749
+      Z: 0.905485749
+    }
+  }
+  ParentId: 3682001227617875134
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.93272161
+    Color {
+      R: 0.945960283
+      G: 0.52
+      B: 1
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 552.213745
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 8982826736025208358
+    SubobjectId: 3152829994718287148
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
+  }
+}
+Objects {
+  Id: 16802008294588416144
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 1074.23572
+      Y: 685.934387
+      Z: 803.627
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.905485749
+      Y: 0.905485749
+      Z: 0.905485749
+    }
+  }
+  ParentId: 3682001227617875134
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.93272161
+    Color {
+      R: 0.329999983
+      G: 0.973377466
+      B: 1
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 552.213745
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 8982826736025208358
+    SubobjectId: 3152829994718287148
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
   }
 }
 Objects {
@@ -34655,8 +35017,8 @@ Objects {
   Light {
     Intensity: 7.93272161
     Color {
-      G: 0.9
-      B: 0.435099363
+      R: 0.679999948
+      G: 0.459337711
       A: 1
     }
     CastShadows: true
@@ -54562,6 +54924,7 @@ Objects {
   ChildIds: 14709132733984767618
   ChildIds: 4366240039815318697
   ChildIds: 11155043504943602403
+  ChildIds: 16238928066918248548
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -54577,6 +54940,64 @@ Objects {
     InstanceId: 14396691937701163903
     TemplateId: 16982605172555310320
     WasRoot: true
+  }
+}
+Objects {
+  Id: 16238928066918248548
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -447.501587
+      Y: 423.257172
+      Z: 207.179474
+    }
+    Rotation {
+      Yaw: 2.04905609e-05
+    }
+    Scale {
+      X: 0.905485749
+      Y: 0.905485749
+      Z: 0.905485749
+    }
+  }
+  ParentId: 3560512878061181436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 5.90090942
+    Color {
+      R: 0.434238702
+      B: 0.789999962
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 706.063232
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 13449775075811824721
+    SubobjectId: 17135985837249513307
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
   }
 }
 Objects {
