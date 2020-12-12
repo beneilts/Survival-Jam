@@ -24,6 +24,7 @@ Objects {
   ChildIds: 14538402050092016501
   ChildIds: 742251370243099032
   ChildIds: 16976645359937125939
+  ChildIds: 5101088289460125992
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,50 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 5101088289460125992
+  Name: "Wapons"
+  Transform {
+    Location {
+      X: 10.1615944
+      Y: 115.779869
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6076586465313436768
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Egg_Weapons"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10.1615944
+            Y: 115.779869
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14619334992313252245
+    }
   }
 }
 Objects {
