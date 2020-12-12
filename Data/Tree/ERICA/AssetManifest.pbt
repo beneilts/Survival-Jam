@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17226072379721741748
-  Name: "Electricity Neon Light Humming Buzzing Loop 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_electricity_neon_light_humming_buzzing_loop_02_Cue_ref"
-  }
-}
-Assets {
   Id: 16965777294932964901
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -95,15 +86,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_crate_lid_001_ref"
-  }
-}
-Assets {
-  Id: 16816302544528650113
-  Name: "Horror & Dark Music Score Set 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_HorrorDarkMusic_ref"
   }
 }
 Assets {
@@ -413,30 +395,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10749576941135711019
-  Name: "Electricity Neon Light Humming Buzzing Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_electricity_neon_light_humming_buzzing_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 10549242251585744414
   Name: "Counter - Cabinet"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_counter_cabinet_001"
-  }
-}
-Assets {
-  Id: 10493553909966769468
-  Name: "Ambient Dark Cave Dungeon Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_dark_dungeon_cave_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -491,15 +455,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_meta_collect_coins_01_Cue_ref"
-  }
-}
-Assets {
-  Id: 8661300348872019586
-  Name: "Horror Waterphone Music Stingers Set 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_horrorWaterphone_stingers_ref"
   }
 }
 Assets {
@@ -599,15 +554,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_rounded_003"
-  }
-}
-Assets {
-  Id: 6125308739402695135
-  Name: "\"Tense Desolate Horror Wasteland\" Horror Cluster Swells Music Stingers Set 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_TenseDesolateHorrorWasteland_horror_clusters_stingers_kit_ref"
   }
 }
 Assets {
@@ -755,30 +701,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1265680031579664084
-  Name: "Vehicle War Tank Engine and Tread Movement Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_vehicle_tank_tread_tracks_eng_Cue_Set_ref"
-  }
-}
-Assets {
   Id: 1189657888416972790
   Name: "Sci-fi Chest Rare Base 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_crate_med_001_ref"
-  }
-}
-Assets {
-  Id: 1169397248822606161
-  Name: "Ambience Cave Drips 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_cave_drips_01_Cue_ref"
   }
 }
 Assets {

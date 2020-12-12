@@ -1,6 +1,76 @@
 ﻿Name: "ERICA"
 RootId: 742251370243099032
 Objects {
+  Id: 15098890387708823533
+  Name: "Male Splicer 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 742251370243099032
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7097722548476176444
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Male Splicer 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2718.73486
+            Y: 4631.52686
+            Z: 142.958527
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15487037057885060265
+    }
+  }
+}
+Objects {
+  Id: 7456983730238804746
+  Name: "Male Splicer 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 742251370243099032
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17060844565186092276
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Male Splicer 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2718.73486
+            Y: 4730.27148
+            Z: 142.958527
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2537083724724869146
+    }
+  }
+}
+Objects {
   Id: 6804766024272759616
   Name: "Craftsman Porch Fence Post 01"
   Transform {
@@ -344,7 +414,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4663639283261592544
+  Id: 5971808689331524319
   Name: "Female Splicer 2"
   Transform {
     Scale {
@@ -355,9 +425,15 @@ Objects {
   }
   ParentId: 742251370243099032
   WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13363075909500340870
+      key: 2124646583180631508
       value {
         Overrides {
           Name: "Name"
@@ -367,14 +443,19 @@ Objects {
           Name: "Position"
           Vector {
             X: -2718.73486
-            Y: 4809.77
+            Y: 4854.72803
             Z: 142.958527
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
-      Id: 15346120038208634590
+      Id: 18388528914005804932
     }
   }
 }
@@ -16325,68 +16406,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13359360735000298568
-  Name: "Female Splicer 1"
-  Transform {
-    Location {
-      X: -2718.73486
-      Y: 4932.57324
-      Z: 142.958527
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 742251370243099032
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12376786878344788901
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Female Splicer 1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3490.86816
-            Y: 5795.62744
-            Z: 144.331192
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 71.9097595
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12421644019830804245
-    }
-  }
-}
-Objects {
   Id: 14366801767620856913
   Name: "Craftsman Porch Fence Post 01"
   Transform {
@@ -17481,21 +17500,13 @@ Objects {
     }
   }
   ParentId: 742251370243099032
-  ChildIds: 1242115139350456249
   ChildIds: 10617024491631880675
   ChildIds: 9646425561998801572
-  ChildIds: 11659335210293367500
   ChildIds: 183484525148225785
-  ChildIds: 13615541149318177123
-  ChildIds: 4164417127981874782
   ChildIds: 14359932025999431409
   ChildIds: 4027637950290337733
   ChildIds: 8207427631635461128
-  ChildIds: 1778795278371000240
-  ChildIds: 17118150457411208102
   ChildIds: 7433628745700636210
-  ChildIds: 6637200297624617849
-  ChildIds: 273337420320127611
   ChildIds: 9036971772506606039
   ChildIds: 17874346869162517955
   ChildIds: 16220375287212834535
@@ -17515,8 +17526,8 @@ Objects {
   Name: "Waterfall Small SFX"
   Transform {
     Location {
-      X: -197.874512
-      Y: 4946.86475
+      X: -100.963135
+      Y: 5178.75732
       Z: 245.654907
     }
     Rotation {
@@ -17541,7 +17552,9 @@ Objects {
     AudioAsset {
       Id: 13546976107496475572
     }
-    Volume: 2.27710152
+    AutoPlay: true
+    Repeat: true
+    Volume: 3.41318178
     Falloff: -1
     Radius: -1
     EnableOcclusion: true
@@ -17554,9 +17567,9 @@ Objects {
   Name: "Meta Collect Coins 03 SFX"
   Transform {
     Location {
-      X: -5503.39844
-      Y: 7404.42334
-      Z: 193.617584
+      X: -6634.27295
+      Y: 6071.03613
+      Z: 406.65097
     }
     Rotation {
     }
@@ -17577,8 +17590,10 @@ Objects {
     AudioAsset {
       Id: 8388629187433313027
     }
+    AutoPlay: true
+    Repeat: true
     Pitch: -519.957642
-    Volume: 2.06082559
+    Volume: 0.843462527
     Falloff: -1
     Radius: -1
     EnableOcclusion: true
@@ -17591,9 +17606,9 @@ Objects {
   Name: "Meta Collect Coins 02 SFX"
   Transform {
     Location {
-      X: -5739.7334
-      Y: 6889.05273
-      Z: 193.547
+      X: -6554.46045
+      Y: 5562.98535
+      Z: 406.65097
     }
     Rotation {
     }
@@ -17614,8 +17629,10 @@ Objects {
     AudioAsset {
       Id: 12913331821076231517
     }
+    AutoPlay: true
+    Repeat: true
     Pitch: -519.957642
-    Volume: 2.06082559
+    Volume: 0.843462527
     Falloff: -1
     Radius: -1
     EnableOcclusion: true
@@ -17628,9 +17645,9 @@ Objects {
   Name: "Meta Collect Coins 01 SFX"
   Transform {
     Location {
-      X: -5709.68652
-      Y: 6753.61475
-      Z: 211.573303
+      X: -6554.46045
+      Y: 5562.98535
+      Z: 406.65097
     }
     Rotation {
     }
@@ -17651,8 +17668,10 @@ Objects {
     AudioAsset {
       Id: 8827568657570695400
     }
+    AutoPlay: true
+    Repeat: true
     Pitch: -519.957642
-    Volume: 2.06082559
+    Volume: 0.843462527
     Falloff: -1
     Radius: -1
     EnableOcclusion: true
@@ -17661,99 +17680,13 @@ Objects {
   }
 }
 Objects {
-  Id: 273337420320127611
-  Name: "Horror & Dark Music Score Set 01"
-  Transform {
-    Location {
-      X: 168.156982
-      Y: 75.704834
-      Z: 117.128044
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:emx_horrordarkmusic:44"
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16816302544528650113
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      Pitch: -1515.26392
-      Volume: 2.11376762
-      Falloff: 3600
-      Radius: 400
-    }
-  }
-}
-Objects {
-  Id: 6637200297624617849
-  Name: "Vehicle War Tank Engine and Tread Movement Set 01 SFX"
-  Transform {
-    Location {
-      X: 109.948486
-      Y: 71.9376221
-      Z: 91.0064
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1265680031579664084
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      Volume: 1
-      Falloff: 3600
-      Radius: 400
-      EnableOcclusion: true
-      IsSpatializationEnabled: true
-      IsAttenuationEnabled: true
-    }
-  }
-}
-Objects {
   Id: 7433628745700636210
   Name: "Horror Screeching Piercing Impact 01 SFX"
   Transform {
     Location {
-      X: -40.21875
-      Y: -127.391846
-      Z: 91.0063705
+      X: -328.328857
+      Y: 3233.33203
+      Z: 256.039642
     }
     Rotation {
     }
@@ -17774,78 +17707,8 @@ Objects {
     AudioAsset {
       Id: 11918902634966506832
     }
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 17118150457411208102
-  Name: "Electricity Neon Light Humming Buzzing Loop 02 SFX"
-  Transform {
-    Location {
-      X: 84.690918
-      Y: 36.3890381
-      Z: 91.0063705
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 17226072379721741748
-    }
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 1778795278371000240
-  Name: "Electricity Neon Light Humming Buzzing Loop 01 SFX"
-  Transform {
-    Location {
-      X: 15.7119141
-      Y: -10.7680054
-      Z: 91.0064
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 10749576941135711019
-    }
+    AutoPlay: true
+    Repeat: true
     Volume: 1
     Falloff: -1
     Radius: -1
@@ -17859,9 +17722,9 @@ Objects {
   Name: "Gritty Tonal Scratchy Atmosphere Loop 01 SFX"
   Transform {
     Location {
-      X: 147.959961
+      X: -113.12915
       Y: 69.0933228
-      Z: 91.0063705
+      Z: 280.830505
     }
     Rotation {
     }
@@ -17882,12 +17745,11 @@ Objects {
     AudioAsset {
       Id: 5347029350591253861
     }
-    Volume: 1.85601401
+    AutoPlay: true
+    Repeat: true
+    Volume: 0.395529836
     Falloff: -1
     Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
   }
 }
 Objects {
@@ -17921,7 +17783,9 @@ Objects {
     AudioAsset {
       Id: 13546976107496475572
     }
-    Volume: 2.27710152
+    AutoPlay: true
+    Repeat: true
+    Volume: 3.38960648
     Falloff: -1
     Radius: -1
     EnableOcclusion: true
@@ -17934,9 +17798,9 @@ Objects {
   Name: "Horror Prepared Piano Music Stingers Set 01"
   Transform {
     Location {
-      X: 145.898438
-      Y: 120.784607
-      Z: 91.00634
+      X: -1473.61914
+      Y: 6085.44971
+      Z: 270.245483
     }
     Rotation {
     }
@@ -17960,80 +17824,12 @@ Objects {
     TeamSettings {
     }
     AudioBP {
+      AutoPlay: true
+      Repeat: true
       Volume: 4
       Falloff: 3600
       Radius: 400
     }
-  }
-}
-Objects {
-  Id: 4164417127981874782
-  Name: "Horror Waterphone Music Stingers Set 01"
-  Transform {
-    Location {
-      X: 47.8637695
-      Y: -75.3385
-      Z: 91.0064
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 8661300348872019586
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      Volume: 4
-      Falloff: 3600
-      Radius: 400
-    }
-  }
-}
-Objects {
-  Id: 13615541149318177123
-  Name: "Ambient Dark Cave Dungeon Loop 01 SFX"
-  Transform {
-    Location {
-      X: -6.59667969
-      Y: -78.1121826
-      Z: 253.606079
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 10493553909966769468
-    }
-    Volume: 4
-    Falloff: -1
-    Radius: -1
   }
 }
 Objects {
@@ -18041,9 +17837,9 @@ Objects {
   Name: "Ambience Cave Large 01 SFX"
   Transform {
     Location {
-      X: -138.099854
-      Y: -127.97699
-      Z: 139.002075
+      X: -1614.06433
+      Y: 536.016
+      Z: 139.002136
     }
     Rotation {
     }
@@ -18064,48 +17860,14 @@ Objects {
     AudioAsset {
       Id: 6267607759024470380
     }
-    Volume: 4
-    Falloff: -1
-    Radius: -1
+    AutoPlay: true
+    Repeat: true
+    Volume: 3.24815392
+    Falloff: 1000
+    Radius: 5000
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 11659335210293367500
-  Name: "Ambience Cave Drips 01 SFX"
-  Transform {
-    Location {
-      X: -138.099854
-      Y: -180.865417
-      Z: 272.344666
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 1169397248822606161
-    }
-    AutoPlay: true
-    Transient: true
-    Repeat: true
-    Volume: 4
-    Falloff: -1
-    Radius: -1
   }
 }
 Objects {
@@ -18113,9 +17875,9 @@ Objects {
   Name: "\"Tense Desolate Horror Wasteland\" Piano Music Stingers Set 01"
   Transform {
     Location {
-      X: -606.079956
-      Y: 405.360046
-      Z: 84.9832
+      X: -4264.42188
+      Y: 5464.82471
+      Z: 325.317413
     }
     Rotation {
     }
@@ -18150,8 +17912,11 @@ Objects {
       AutoPlay: true
       Repeat: true
       Volume: 4
-      Falloff: 3600
-      Radius: 400
+      Falloff: 300
+      Radius: 600
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
     }
   }
 }
@@ -18225,58 +17990,9 @@ Objects {
     AudioBP {
       AutoPlay: true
       Repeat: true
-      Volume: 4
+      Volume: 0.584133089
       Falloff: 3600
       Radius: 400
-    }
-  }
-}
-Objects {
-  Id: 1242115139350456249
-  Name: "\"Tense Desolate Horror Wasteland\" Horror Cluster Swells Music Stingers Set 01"
-  Transform {
-    Location {
-      X: -462.736572
-      Y: 207.33844
-      Z: 91.0063095
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8535142504277830237
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:emx_tensedesolatewastelandhorror_stingers_clusterskit:29"
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6125308739402695135
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      Pitch: -54.0695801
-      Volume: 1.01963639
-      Falloff: 3600
-      Radius: 400
-      EnableOcclusion: true
-      IsSpatializationEnabled: true
-      IsAttenuationEnabled: true
     }
   }
 }
@@ -78703,8 +78419,8 @@ Objects {
   }
 }
 Objects {
-  Id: 3563207440158759420
-  Name: "Section Thing"
+  Id: 4333210655479244092
+  Name: "MergedModel"
   Transform {
     Location {
       X: -3406.98462
@@ -78712,7 +78428,34 @@ Objects {
       Z: 146.234009
     }
     Rotation {
-      Yaw: -86.7111664
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 742251370243099032
+  ChildIds: 3563207440158759420
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 3563207440158759420
+  Name: "Section Thing"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -86.7111588
     }
     Scale {
       X: 0.665844202
@@ -78720,7 +78463,7 @@ Objects {
       Z: 0.665844202
     }
   }
-  ParentId: 742251370243099032
+  ParentId: 4333210655479244092
   ChildIds: 2679637361094067854
   ChildIds: 6285481422231738210
   ChildIds: 11517756863137560719
@@ -86320,7 +86063,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -2718.73486
-            Y: 4932.57324
+            Y: 4977.53125
             Z: 142.958527
           }
         }

@@ -9,7 +9,9 @@
       Overrides {
         Name: "color_secondary"
         Color {
-          R: 0.25
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
@@ -24,7 +26,9 @@
       Overrides {
         Name: "color"
         Color {
-          R: 0.25
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
