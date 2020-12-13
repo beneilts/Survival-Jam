@@ -24,7 +24,7 @@ Objects {
   ChildIds: 14538402050092016501
   ChildIds: 742251370243099032
   ChildIds: 16976645359937125939
-  ChildIds: 5101088289460125992
+  ChildIds: 10482513071988179109
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,8 +37,8 @@ Objects {
   }
 }
 Objects {
-  Id: 5101088289460125992
-  Name: "Wapons"
+  Id: 10482513071988179109
+  Name: "Egg_Weapons"
   Transform {
     Location {
       X: 10.1615944
@@ -53,30 +53,217 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 1982769091327373704
+  ChildIds: 4402125313252813515
+  ChildIds: 8777826906588941180
+  ChildIds: 13981298323658122291
+  ChildIds: 15122250684154750793
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10482513071988179109
+    SubobjectId: 6076586465313436768
+    InstanceId: 5101088289460125992
+    TemplateId: 14619334992313252245
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 15122250684154750793
+  Name: "masquerade_Shotgun"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10482513071988179109
+  WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 6076586465313436768
+      key: 70078001075890946
       value {
         Overrides {
           Name: "Name"
-          String: "Egg_Weapons"
+          String: "masquerade_Shotgun"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 10.1615944
-            Y: 115.779869
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
+            X: -355.369507
+            Y: 36.7178116
+            Z: 26.5458298
           }
         }
       }
     }
     TemplateAsset {
-      Id: 14619334992313252245
+      Id: 15195961195627603021
+    }
+  }
+}
+Objects {
+  Id: 13981298323658122291
+  Name: "masquerade_pan"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10482513071988179109
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7909311896854615097
+      value {
+        Overrides {
+          Name: "Name"
+          String: "masquerade_pan"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -139.896606
+            Y: 46.1122818
+            Z: 42.5081444
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Roll: 90.0000076
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14042229736942049475
+    }
+  }
+}
+Objects {
+  Id: 8777826906588941180
+  Name: "masquerade_tommy_gun"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10482513071988179109
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4630819407330249617
+      value {
+        Overrides {
+          Name: "Name"
+          String: "masquerade_tommy_gun"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 192.636261
+            Y: 22.9804764
+            Z: 34.9010582
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5201026217299583374
+    }
+  }
+}
+Objects {
+  Id: 4402125313252813515
+  Name: "masquerade_wrench"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10482513071988179109
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7541493768503603835
+      value {
+        Overrides {
+          Name: "Name"
+          String: "masquerade_wrench"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -42.5780487
+            Y: 46.6871109
+            Z: 23.0055847
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17805097217844870366
+    }
+  }
+}
+Objects {
+  Id: 1982769091327373704
+  Name: "masquerade_pistol"
+  Transform {
+    Location {
+      Z: 46.7743378
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10482513071988179109
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 546877069703578936
+      value {
+        Overrides {
+          Name: "Name"
+          String: "masquerade_pistol"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10.1615944
+            Y: -115.779869
+            Z: 225.98999
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15208954747279266942
     }
   }
 }
