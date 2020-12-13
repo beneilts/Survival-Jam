@@ -58,6 +58,7 @@ Objects {
   ChildIds: 8777826906588941180
   ChildIds: 13981298323658122291
   ChildIds: 15122250684154750793
+  ChildIds: 6370600103259870283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -73,6 +74,41 @@ Objects {
     InstanceId: 5101088289460125992
     TemplateId: 14619334992313252245
     WasRoot: true
+  }
+}
+Objects {
+  Id: 6370600103259870283
+  Name: "masquerade_mp40"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10482513071988179109
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17062719420071073875
+      value {
+        Overrides {
+          Name: "Name"
+          String: "masquerade_mp40"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 348.455597
+            Y: 373.90387
+            Z: 34.3139801
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4396330152852903856
+    }
   }
 }
 Objects {
