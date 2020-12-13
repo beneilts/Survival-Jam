@@ -19,7 +19,6 @@ Objects {
   ChildIds: 9474754621644636225
   ChildIds: 3693435253265371569
   ChildIds: 8874313960761186175
-  ChildIds: 13974188897355700842
   ChildIds: 15528212611253686987
   ChildIds: 14538402050092016501
   ChildIds: 742251370243099032
@@ -6469,33 +6468,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "UI"
-  }
-}
-Objects {
-  Id: 13974188897355700842
-  Name: "Map"
-  Transform {
-    Location {
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Map"
   }
 }
 Objects {
