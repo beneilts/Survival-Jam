@@ -30,6 +30,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15618099845814218040
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2.45068336
+            Y: -0.466309756
+            Z: 10.0174866
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 15487037057885060265
     }
@@ -1782,8 +1795,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16258534928919813747
-  Name: "Piano"
+  Id: 4712624081733345708
+  Name: "MergedModel Piano"
   Transform {
     Location {
       X: -1777.82446
@@ -1791,9 +1804,36 @@ Objects {
       Z: 189.92157
     }
     Rotation {
-      Pitch: -0.000854492188
-      Yaw: -132.55275
-      Roll: 0.000630005379
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 742251370243099032
+  ChildIds: 16258534928919813747
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 16258534928919813747
+  Name: "Piano"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -0.000853773614
+      Yaw: -132.552765
+      Roll: 0.000630005321
     }
     Scale {
       X: 0.0920398831
@@ -1801,7 +1841,7 @@ Objects {
       Z: 0.0920398831
     }
   }
-  ParentId: 742251370243099032
+  ParentId: 4712624081733345708
   ChildIds: 7341409946550067371
   ChildIds: 1568650224158509035
   ChildIds: 5956535992046794569
@@ -14043,61 +14083,13 @@ Objects {
   }
 }
 Objects {
-  Id: 14038108126400957671
-  Name: "Pipe - Half"
-  Transform {
-    Location {
-      X: 2095
-      Y: 1675.00012
-      Z: 432.667419
-    }
-    Rotation {
-      Roll: 89.9999542
-    }
-    Scale {
-      X: 4.81483698
-      Y: 4.39987564
-      Z: 3.3850081
-    }
-  }
-  ParentId: 742251370243099032
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9149198916827903630
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 148184910461511929
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 7401939464504144042
   Name: "Pipe - Half"
   Transform {
     Location {
       X: 2095
       Y: 1685
-      Z: 435
+      Z: 427.67804
     }
     Rotation {
       Roll: 89.9999542
@@ -37071,6 +37063,8 @@ Objects {
   ChildIds: 18395299900885567995
   ChildIds: 1538402694175461868
   ChildIds: 5157057738643361743
+  ChildIds: 16304894535320065050
+  ChildIds: 3398363205790005833
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37086,6 +37080,122 @@ Objects {
     InstanceId: 14396691937701163903
     TemplateId: 16982605172555310320
     WasRoot: true
+  }
+}
+Objects {
+  Id: 3398363205790005833
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -124.590919
+      Y: 103.946
+      Z: 207.179489
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.90548563
+      Y: 0.90548563
+      Z: 0.90548563
+    }
+  }
+  ParentId: 3963783529185257588
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.93272161
+    Color {
+      R: 1
+      G: 0.0590728521
+      B: 0.0400000215
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 552.213745
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 13449775075811824721
+    SubobjectId: 17135985837249513307
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
+  }
+}
+Objects {
+  Id: 16304894535320065050
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -124.590919
+      Y: 103.946
+      Z: 207.179489
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.90548569
+      Y: 0.90548569
+      Z: 0.90548569
+    }
+  }
+  ParentId: 3963783529185257588
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.93272161
+    Color {
+      R: 1
+      G: 0.0590728521
+      B: 0.0400000215
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 552.213745
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 13449775075811824721
+    SubobjectId: 17135985837249513307
+    InstanceId: 14396691937701163903
+    TemplateId: 16982605172555310320
   }
 }
 Objects {

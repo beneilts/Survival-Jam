@@ -15,8 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 13748563458231339962
-        ChildIds: 11157158551078161379
+        ParentId: 12021857922333468342
         ChildIds: 18190965884710991908
         ChildIds: 16538690789018461125
         ChildIds: 460244166084508966
@@ -28,157 +27,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11157158551078161379
-        Name: "Bottles"
-        Transform {
-          Location {
-            X: 14.4858418
-            Y: -4.12011147
-            Z: 52.4177094
-          }
-          Rotation {
-            Pitch: -57.3873901
-            Yaw: 90
-          }
-          Scale {
-            X: 1.42409194
-            Y: 1.42409194
-            Z: 1.42409194
-          }
-        }
-        ParentId: 11208682109929528315
-        ChildIds: 17436230668235802451
-        ChildIds: 7286244451864239753
-        ChildIds: 17338542676638486828
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 17436230668235802451
-        Name: "Bottle 01"
-        Transform {
-          Location {
-            X: -8.24812222
-            Y: -18.7297268
-            Z: -16.5628052
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.363083243
-            Y: 0.363083243
-            Z: 0.363083243
-          }
-        }
-        ParentId: 11157158551078161379
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 15397520074414896567
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7286244451864239753
-        Name: "Bottle 02"
-        Transform {
-          Location {
-            X: -9.78817177
-            Y: 4.73848486
-            Z: -17.2068539
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.426202208
-            Y: 0.426202208
-            Z: 0.426202208
-          }
-        }
-        ParentId: 11157158551078161379
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 772469535345180596
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17338542676638486828
-        Name: "Bottle 05"
-        Transform {
-          Location {
-            X: -11.5423975
-            Y: 26.8729248
-            Z: -18.1640587
-          }
-          Rotation {
-            Yaw: -81.3707886
-          }
-          Scale {
-            X: 0.346344799
-            Y: 0.346344799
-            Z: 0.346344799
-          }
-        }
-        ParentId: 11157158551078161379
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9237602065159834768
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -200,7 +48,6 @@
         }
         ParentId: 11208682109929528315
         ChildIds: 8333839627413305446
-        ChildIds: 12953201281097805185
         ChildIds: 12404283845033551738
         ChildIds: 18085683033821929856
         Collidable_v2 {
@@ -218,9 +65,9 @@
         Name: "Point Light"
         Transform {
           Location {
-            X: -1.68845749
-            Y: -47.3510704
-            Z: -94.4242706
+            X: -1.68834686
+            Y: -81.3117523
+            Z: -94.4242554
           }
           Rotation {
             Yaw: 179.999969
@@ -243,59 +90,6 @@
           Color {
             G: 0.480000019
             B: 0.394172192
-            A: 1
-          }
-          CastShadows: true
-          VolumetricIntensity: 5
-          TeamSettings {
-          }
-          Light {
-            Temperature: 6500
-            LocalLight {
-              AttenuationRadius: 146.074539
-              PointLight {
-                SourceRadius: 20
-                SoftSourceRadius: 20
-                FallOffExponent: 8
-                UseFallOffExponent: true
-              }
-            }
-            MaxDrawDistance: 10000
-            MaxDistanceFadeRange: 2000
-          }
-        }
-      }
-      Objects {
-        Id: 12953201281097805185
-        Name: "Point Light"
-        Transform {
-          Location {
-            X: -3.07665253
-            Y: -19.8466816
-            Z: 33.0422363
-          }
-          Rotation {
-            Yaw: 179.999954
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18190965884710991908
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Light {
-          Intensity: 13.5789986
-          Color {
-            R: 1
-            G: 0.814039767
-            B: 0.459999979
             A: 1
           }
           CastShadows: true
@@ -376,9 +170,9 @@
         Name: "Point Light"
         Transform {
           Location {
-            X: 89.4865723
-            Y: -23.1962891
-            Z: -45.9729614
+            X: 56.4404564
+            Y: -57.849823
+            Z: -14.3999023
           }
           Rotation {
             Yaw: 179.999954
@@ -27520,33 +27314,6 @@
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 15397520074414896567
-      Name: "Bottle 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bottle_001"
-      }
-    }
-    Assets {
-      Id: 772469535345180596
-      Name: "Bottle 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bottle_002"
-      }
-    }
-    Assets {
-      Id: 9237602065159834768
-      Name: "Bottle 05"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bottle_005"
       }
     }
     Assets {
