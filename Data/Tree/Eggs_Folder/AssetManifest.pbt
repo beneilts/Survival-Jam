@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18377117945223357448
+  Name: "Text 01: 7"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_033"
+  }
+}
+Assets {
   Id: 18324350020094831794
   Name: "Text 03: $"
   PlatformAssetType: 1
@@ -194,6 +203,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_steel_hex_001"
+  }
+}
+Assets {
+  Id: 17532908813962089889
+  Name: "Text 04: R"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_017"
   }
 }
 Assets {
@@ -1601,6 +1619,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9850748308294282514
+  Name: "Text 01: 8"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_034"
+  }
+}
+Assets {
   Id: 9820343599012411718
   Name: "Sphere - Half Thick"
   PlatformAssetType: 1
@@ -1925,6 +1952,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7895649949992765792
+  Name: "Text 01: J"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_009"
+  }
+}
+Assets {
   Id: 7770927342467421366
   Name: "Sphere - Half Slice"
   PlatformAssetType: 1
@@ -1958,6 +1994,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001"
+  }
+}
+Assets {
+  Id: 7642952310543914944
+  Name: "Text 01: -"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_047"
   }
 }
 Assets {
@@ -2066,6 +2111,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_gas_cylinder_001"
+  }
+}
+Assets {
+  Id: 6895878100948549192
+  Name: "Text 01: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_019"
   }
 }
 Assets {
@@ -2300,6 +2354,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F6_Text_033"
+  }
+}
+Assets {
+  Id: 5420431542683358666
+  Name: "Text 01: K"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_010"
   }
 }
 Assets {
@@ -2579,6 +2642,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_concrete_001"
+  }
+}
+Assets {
+  Id: 3877592039352779822
+  Name: "Lens"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_lense_001"
   }
 }
 Assets {

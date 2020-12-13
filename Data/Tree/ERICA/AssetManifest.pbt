@@ -494,15 +494,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7123474027908910535
-  Name: "Transparent Bubble Glass"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_transparent_bubble_glass"
-  }
-}
-Assets {
   Id: 7031844069357734410
   Name: "Sci-fi Chest Rare Lid 01"
   PlatformAssetType: 1

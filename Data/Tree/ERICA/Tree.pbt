@@ -13793,7 +13793,6 @@ Objects {
   ParentId: 742251370243099032
   ChildIds: 4014610467213874901
   ChildIds: 11023925917273145774
-  ChildIds: 12007174834375665055
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13802,55 +13801,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 12007174834375665055
-  Name: "Pipe - Half"
-  Transform {
-    Location {
-      X: -58.0341797
-      Y: 46.8701172
-      Z: 277.693481
-    }
-    Rotation {
-      Yaw: -179.999969
-      Roll: 89.9999619
-    }
-    Scale {
-      X: 4.39987373
-      Y: 4.39987659
-      Z: 14.8320332
-    }
-  }
-  ParentId: 13445319383432934214
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7123474027908910535
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 148184910461511929
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
