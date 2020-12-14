@@ -214,3 +214,12 @@ Assets {
     AssetId: "Energy_Tube_Glow"
   }
 }
+Assets {
+  Id: 288056862129325099
+  Name: "Fantasy Human Gal 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_003_ref"
+  }
+}

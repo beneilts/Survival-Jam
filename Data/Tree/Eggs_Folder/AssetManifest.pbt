@@ -98,12 +98,30 @@ Assets {
   }
 }
 Assets {
+  Id: 18107980605465968105
+  Name: "Wedge - Corner Complex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_corelogo_shape_001"
+  }
+}
+Assets {
   Id: 18098293923493844510
   Name: "Decal Rubble Concrete 02"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_002_ref"
+  }
+}
+Assets {
+  Id: 18049175085252879244
+  Name: "Decal Gold Coins 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_gold_coins_001"
   }
 }
 Assets {
@@ -188,6 +206,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17763455702693909049
+  Name: "Waterfall Base Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_waterfall_base_volume"
+  }
+}
+Assets {
   Id: 17616555706524180168
   Name: "Fantasy Pommel 02"
   PlatformAssetType: 1
@@ -260,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17203522405288226808
+  Name: "Ellipsoid - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_truncated_001"
+  }
+}
+Assets {
   Id: 17163811851424513082
   Name: "Urban Cinderblock Debris 03"
   PlatformAssetType: 1
@@ -284,6 +320,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F5_Text_020"
+  }
+}
+Assets {
+  Id: 16965777294932964901
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -557,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15470839508926973168
+  Name: "Sphere - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_001"
+  }
+}
+Assets {
   Id: 15441951546712329101
   Name: "Human Guy 1"
   PlatformAssetType: 17
@@ -764,6 +818,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14221974643607369720
+  Name: "Sci-fi Circuits Ring 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_scifi_003"
+  }
+}
+Assets {
   Id: 14206563083884513420
   Name: "Plane 1m - Two Sided"
   PlatformAssetType: 1
@@ -896,6 +959,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "dirt_001"
+  }
+}
+Assets {
+  Id: 13559656701718490651
+  Name: "Pipe - Quarter Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter-pipe_003"
   }
 }
 Assets {
@@ -1067,6 +1139,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_traffic_cone_001"
+  }
+}
+Assets {
+  Id: 12356581102050708884
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
+  Id: 12335703232353238691
+  Name: "Wood Raw White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_white_001_uv"
   }
 }
 Assets {
@@ -1790,6 +1880,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9141665469951123963
+  Name: "Lily Pads 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_flower_water_lily_002"
+  }
+}
+Assets {
   Id: 8812136411080433919
   Name: "Gem - Round Polished"
   PlatformAssetType: 1
@@ -1859,6 +1958,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_opaque_bubble_glass"
+  }
+}
+Assets {
+  Id: 8458529086837766221
+  Name: "Sci-fi Circuits Ring 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_scifi_001"
   }
 }
 Assets {
@@ -2015,6 +2123,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7491845158095226010
+  Name: "Container - Square 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_ref"
+  }
+}
+Assets {
   Id: 7445080708324708127
   Name: "Text 01: E"
   PlatformAssetType: 1
@@ -2111,6 +2228,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_gas_cylinder_001"
+  }
+}
+Assets {
+  Id: 7022405878021171375
+  Name: "Leather Tufted 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fabric_tufted_001_uv_ref"
+  }
+}
+Assets {
+  Id: 6899199347189866619
+  Name: "Rocks River Bed 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "puddle_river_bed_001"
   }
 }
 Assets {
@@ -2453,6 +2588,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_convex_001"
+  }
+}
+Assets {
+  Id: 4908955939187165296
+  Name: "Stone Railing Curved 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_railing_6m_bend_001"
   }
 }
 Assets {
@@ -2942,6 +3086,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2185710404554113641
+  Name: "Water Jet VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_water_jet"
+  }
+}
+Assets {
   Id: 2109752624457112691
   Name: "Text 01: 5"
   PlatformAssetType: 1
@@ -3029,6 +3182,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_rust_diamond-plate_001"
+  }
+}
+Assets {
+  Id: 1848918357076278315
+  Name: "Prism - 8-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_octagon_001"
   }
 }
 Assets {
@@ -3122,6 +3284,15 @@ Assets {
   }
 }
 Assets {
+  Id: 938156124374185867
+  Name: "Lily Pads 001"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_flower_water_lily_001"
+  }
+}
+Assets {
   Id: 927289395128576362
   Name: "Urban Brick Debris 05"
   PlatformAssetType: 1
@@ -3209,6 +3380,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_000"
+  }
+}
+Assets {
+  Id: 452440757692005802
+  Name: "Fantasy Castle Stairs Spiral Trim 01 - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_spiral_trim_001_lg"
   }
 }
 Assets {

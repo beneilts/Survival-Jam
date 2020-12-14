@@ -250,7 +250,6 @@ Objects {
     }
   }
   ParentId: 17995285194890977874
-  ChildIds: 10618637750833760675
   ChildIds: 989126804350518480
   ChildIds: 912304883505878687
   ChildIds: 8053519134074783404
@@ -433,62 +432,6 @@ Objects {
   }
 }
 Objects {
-  Id: 10618637750833760675
-  Name: "Craftsman Part - Inside Lower Trim 01"
-  Transform {
-    Location {
-      X: 0.015625
-      Z: 0.00390625
-    }
-    Rotation {
-      Pitch: -0.155822754
-      Yaw: -111.073517
-      Roll: 89.6130219
-    }
-    Scale {
-      X: 0.924480498
-      Y: 6.85622215
-      Z: -1.31294668
-    }
-  }
-  ParentId: 1761374001720571268
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_LowerTrimInner:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15358276626405872291
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7083639803686500194
-    SubobjectId: 13426632331234107075
-    InstanceId: 3420177848359116329
-    TemplateId: 7220674414544736624
-  }
-}
-Objects {
   Id: 17592014517155750298
   Name: "Group"
   Transform {
@@ -508,7 +451,6 @@ Objects {
     }
   }
   ParentId: 17995285194890977874
-  ChildIds: 2462666088404922089
   ChildIds: 12972798858805293841
   ChildIds: 3025760577143260776
   ChildIds: 16605566430796487524
@@ -582,11 +524,11 @@ Objects {
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
     Location {
-      Y: -0.000366210938
+      Z: -6.1640625
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -98.9092636
+      Yaw: -98.9092712
       Roll: 89.9999847
     }
     Scale {
@@ -648,62 +590,6 @@ Objects {
       X: 1.11618257
       Y: 6.85621834
       Z: -2.06002831
-    }
-  }
-  ParentId: 17592014517155750298
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_LowerTrimInner:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15358276626405872291
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7083639803686500194
-    SubobjectId: 13426632331234107075
-    InstanceId: 3420177848359116329
-    TemplateId: 7220674414544736624
-  }
-}
-Objects {
-  Id: 2462666088404922089
-  Name: "Craftsman Part - Inside Lower Trim 01"
-  Transform {
-    Location {
-      X: 0.0009765625
-      Y: 0.03515625
-      Z: -0.00390625
-    }
-    Rotation {
-      Yaw: -112.22348
-      Roll: 90
-    }
-    Scale {
-      X: 0.924482405
-      Y: 6.85622
-      Z: -1.4017334
     }
   }
   ParentId: 17592014517155750298
@@ -968,62 +854,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1822553890322172862
-  Name: "Craftsman Part - Inside Lower Trim 01"
-  Transform {
-    Location {
-      X: 466.242188
-      Y: 900.355713
-      Z: -33.6113281
-    }
-    Rotation {
-      Yaw: -86.0895691
-      Roll: 90
-    }
-    Scale {
-      X: 1.35889757
-      Y: 6.85622
-      Z: -1.18095136
-    }
-  }
-  ParentId: 17995285194890977874
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_LowerTrimInner:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15358276626405872291
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7083639803686500194
-    SubobjectId: 13426632331234107075
-    InstanceId: 3420177848359116329
-    TemplateId: 7220674414544736624
-  }
-}
-Objects {
   Id: 12811273542753043164
   Name: "Craftsman Part - Inside Lower Trim 01"
   Transform {
@@ -1150,62 +980,6 @@ Objects {
     }
     Scale {
       X: 1.24792719
-      Y: 6.85621834
-      Z: -2.06002927
-    }
-  }
-  ParentId: 17995285194890977874
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_LowerTrimInner:id"
-      AssetReference {
-        Id: 6671501982794217455
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15358276626405872291
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7083639803686500194
-    SubobjectId: 13426632331234107075
-    InstanceId: 3420177848359116329
-    TemplateId: 7220674414544736624
-  }
-}
-Objects {
-  Id: 7727064954597733207
-  Name: "Craftsman Part - Inside Lower Trim 01"
-  Transform {
-    Location {
-      X: -421.40625
-      Y: 915.782593
-      Z: -21.8730469
-    }
-    Rotation {
-      Yaw: -93.9913
-      Roll: 90
-    }
-    Scale {
-      X: 1.35889423
       Y: 6.85621834
       Z: -2.06002927
     }
