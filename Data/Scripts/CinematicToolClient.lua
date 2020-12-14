@@ -159,6 +159,7 @@ function Next()
 		nextTake.Play()
 	else
 		Stop()
+		Events.Broadcast("OnPlayerJoined.TitleScreenEnd")
 	end
 end
 

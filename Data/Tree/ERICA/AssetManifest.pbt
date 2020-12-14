@@ -152,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15375061858317246409
-  Name: "Environment Fog Default VFX"
-  PlatformAssetType: 20
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_env_fog_default"
-  }
-}
-Assets {
   Id: 15274591245069974323
   Name: "Ring - Quarter Thin"
   PlatformAssetType: 1

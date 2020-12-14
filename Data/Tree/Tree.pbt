@@ -7744,11 +7744,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 14833181232387618412
-  ChildIds: 15848962812036390214
-  ChildIds: 5205194050690469530
-  ChildIds: 1968100694254312235
-  ChildIds: 8167226910874304942
   ChildIds: 2425855069747076470
   ChildIds: 4749923127459724260
   ChildIds: 5105006457354431311
@@ -7757,6 +7752,8 @@ Objects {
   ChildIds: 10847338241109963492
   ChildIds: 6994088892101767553
   ChildIds: 15520777381386231219
+  ChildIds: 794490668885725450
+  ChildIds: 2749408172305522900
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7765,6 +7762,458 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 2749408172305522900
+  Name: "ClientContext"
+  Transform {
+    Location {
+      X: -11987.9121
+      Y: -38.2329483
+      Z: 303.50824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4236431322247311164
+  ChildIds: 17161558541148844192
+  ChildIds: 1787926149777654386
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 1787926149777654386
+  Name: "Environment Fog Default VFX"
+  Transform {
+    Location {
+      X: -5011.06055
+      Y: 4273.5459
+      Z: 698.286255
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2749408172305522900
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Fog Density"
+      Float: 10
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        G: 0.279999971
+        B: 0.218808
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Start"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Falloff"
+      Float: 0.05
+    }
+    Overrides {
+      Name: "bp:opacity"
+      Float: 0.991682887
+    }
+    Overrides {
+      Name: "bp:Directional Inscattering Color"
+      Color {
+        R: 0.269999981
+        G: 1
+        B: 0.985496938
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15375061858317246409
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 17161558541148844192
+  Name: "TitleScreenListeners-Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2749408172305522900
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EnvironmentFogDefaultVFX"
+      ObjectReference {
+        SelfId: 1787926149777654386
+      }
+    }
+    Overrides {
+      Name: "cs:SunLight"
+      ObjectReference {
+        SelfId: 13862089561636992998
+      }
+    }
+    Overrides {
+      Name: "cs:ExtraEffects"
+      ObjectReference {
+        SelfId: 794490668885725450
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13539464991509912891
+    }
+  }
+}
+Objects {
+  Id: 794490668885725450
+  Name: "ExtraEffects"
+  Transform {
+    Location {
+      X: -1.74511719
+      Y: 1011.76703
+      Z: 303.50824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4236431322247311164
+  ChildIds: 8167226910874304942
+  ChildIds: 14833181232387618412
+  ChildIds: 15848962812036390214
+  ChildIds: 5205194050690469530
+  ChildIds: 1968100694254312235
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 1968100694254312235
+  Name: "Advanced Color Grading Post Process"
+  Transform {
+    Location {
+      X: -18.2558594
+      Y: 213.487671
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 794490668885725450
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Scene Tint"
+      Color {
+        R: 1
+        G: 0.563178778
+        B: 0.32
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 5904742969323297593
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 5205194050690469530
+  Name: "Advanced Bloom Post Process"
+  Transform {
+    Location {
+      X: -373.709961
+      Y: -1588.31165
+      Z: -242.127411
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 794490668885725450
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 9.44870567
+    }
+    Overrides {
+      Name: "bp:Threshold"
+      Float: 10.9835491
+    }
+    Overrides {
+      Name: "bp:Size Scale"
+      Float: 5.14175749
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9396694648450602937
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 15848962812036390214
+  Name: "Ambient Occlusion Recolor Post Process"
+  Transform {
+    Location {
+      X: -425
+      Y: -1050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 794490668885725450
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        G: 0.029139027
+        B: 0.110000014
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:AO Tightness"
+      Float: 0.552706718
+    }
+    Overrides {
+      Name: "bp:Color Brightness"
+      Float: 2.66426849
+    }
+    Overrides {
+      Name: "bp:Blend Weight"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Use Two Colors"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Secondary Color"
+      Color {
+        R: 0.440000057
+        G: 0.201059625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color Balance"
+      Float: 0.060789071
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7258107033253602078
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 14833181232387618412
+  Name: "Skylight"
+  Transform {
+    Location {
+      X: -425
+      Y: -1050
+      Z: 700
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 794490668885725450
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Occlusion Contrast"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Lower Hemisphere Color"
+      Color {
+        R: 0.0666259378
+        G: 0.0307134502
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Occlusion Tint"
+      Color {
+        R: 0.0274509825
+        G: 0.0274509825
+        B: 0.0392156877
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Occlusion Exponent"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "bp:Cast Shadows"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cast Volumetric Shadows"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Tint Color"
+      Color {
+        G: 0.504768193
+        B: 0.74
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11515840070784317904
+    }
+  }
+}
+Objects {
+  Id: 8167226910874304942
+  Name: "Tension Riser Music Stinger 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 794490668885725450
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12218668865134650536
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Pitch: 534.56665
+      Volume: 4
+      Falloff: 3600
+      Radius: 400
+      FadeOutTime: 5
+    }
   }
 }
 Objects {
@@ -8144,6 +8593,14 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:PlayOnKey"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:PlayOnEvent"
+          String: "TitleScreenStart"
         }
       }
     }
@@ -13506,286 +13963,6 @@ Objects {
     StaticMesh {
       Physics {
       }
-    }
-  }
-}
-Objects {
-  Id: 8167226910874304942
-  Name: "Tension Riser Music Stinger 01"
-  Transform {
-    Location {
-      X: -1.74545288
-      Y: 1011.76703
-      Z: 303.50824
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4236431322247311164
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 12218668865134650536
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      AutoPlay: true
-      Pitch: 534.56665
-      Volume: 4
-      Falloff: 3600
-      Radius: 400
-      FadeOutTime: 5
-    }
-  }
-}
-Objects {
-  Id: 1968100694254312235
-  Name: "Advanced Color Grading Post Process"
-  Transform {
-    Location {
-      X: -20.0007324
-      Y: 1225.25476
-      Z: 303.50824
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4236431322247311164
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Scene Tint"
-      Color {
-        R: 1
-        G: 0.563178778
-        B: 0.32
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 5904742969323297593
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
-  Id: 5205194050690469530
-  Name: "Advanced Bloom Post Process"
-  Transform {
-    Location {
-      X: -375.455261
-      Y: -576.544617
-      Z: 61.3808289
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4236431322247311164
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 9.44870567
-    }
-    Overrides {
-      Name: "bp:Threshold"
-      Float: 10.9835491
-    }
-    Overrides {
-      Name: "bp:Size Scale"
-      Float: 5.14175749
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 9396694648450602937
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
-  Id: 15848962812036390214
-  Name: "Ambient Occlusion Recolor Post Process"
-  Transform {
-    Location {
-      X: -426.745453
-      Y: -38.2329483
-      Z: 303.50824
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4236431322247311164
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.029139027
-        B: 0.110000014
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:AO Tightness"
-      Float: 0.552706718
-    }
-    Overrides {
-      Name: "bp:Color Brightness"
-      Float: 2.66426849
-    }
-    Overrides {
-      Name: "bp:Blend Weight"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Use Two Colors"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Secondary Color"
-      Color {
-        R: 0.440000057
-        G: 0.201059625
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Color Balance"
-      Float: 0.060789071
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7258107033253602078
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
-  Id: 14833181232387618412
-  Name: "Skylight"
-  Transform {
-    Location {
-      X: -426.745453
-      Y: -38.2329483
-      Z: 1003.50824
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4236431322247311164
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Index"
-      Int: 3
-    }
-    Overrides {
-      Name: "bp:Occlusion Contrast"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 3
-    }
-    Overrides {
-      Name: "bp:Lower Hemisphere Color"
-      Color {
-        R: 0.0666259378
-        G: 0.0307134502
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Occlusion Tint"
-      Color {
-        R: 0.0274509825
-        G: 0.0274509825
-        B: 0.0392156877
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Occlusion Exponent"
-      Float: 0.4
-    }
-    Overrides {
-      Name: "bp:Cast Shadows"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Cast Volumetric Shadows"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Tint Color"
-      Color {
-        G: 0.504768193
-        B: 0.74
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 11515840070784317904
     }
   }
 }

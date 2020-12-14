@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15375061858317246409
+  Name: "Environment Fog Default VFX"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
   Id: 14206563083884513420
   Name: "Plane 1m - Two Sided"
   PlatformAssetType: 1
