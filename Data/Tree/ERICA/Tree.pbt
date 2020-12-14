@@ -1,6 +1,144 @@
 ﻿Name: "ERICA"
 RootId: 742251370243099032
 Objects {
+  Id: 1787926149777654386
+  Name: "Environment Fog Default VFX"
+  Transform {
+    Location {
+      X: -5011.06055
+      Y: 4273.5459
+      Z: 698.286255
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Fog Density"
+      Float: 10
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        G: 0.279999971
+        B: 0.218808
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Start"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Falloff"
+      Float: 0.05
+    }
+    Overrides {
+      Name: "bp:opacity"
+      Float: 0.991682887
+    }
+    Overrides {
+      Name: "bp:Directional Inscattering Color"
+      Color {
+        R: 0.269999981
+        G: 1
+        B: 0.985496938
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15375061858317246409
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 6270890929234904580
+  Name: "Advanced Bloom Post Process"
+  Transform {
+    Location {
+      X: -2632.51221
+      Y: 4883.83789
+      Z: 146.194016
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 742251370243099032
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 1.57360888
+    }
+    Overrides {
+      Name: "bp:Threshold"
+      Float: -0.191588581
+    }
+    Overrides {
+      Name: "bp:Size Scale"
+      Float: 3.36379433
+    }
+    Overrides {
+      Name: "bp:Color A"
+      Color {
+        G: 0.250463337
+        B: 0.62
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color B"
+      Color {
+        R: 0.76
+        B: 0.709668577
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color C"
+      Color {
+        R: 0.0799999833
+        G: 1
+        B: 0.561324716
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9396694648450602937
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 15098890387708823533
   Name: "Male Splicer 2"
   Transform {
@@ -6163,144 +6301,6 @@ Objects {
     StaticMesh {
       Physics {
       }
-    }
-  }
-}
-Objects {
-  Id: 1787926149777654386
-  Name: "Environment Fog Default VFX"
-  Transform {
-    Location {
-      X: -5011.06055
-      Y: 4273.5459
-      Z: 698.286255
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 742251370243099032
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Fog Density"
-      Float: 10
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.279999971
-        B: 0.218808
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Falloff"
-      Float: 0.05
-    }
-    Overrides {
-      Name: "bp:opacity"
-      Float: 0.991682887
-    }
-    Overrides {
-      Name: "bp:Directional Inscattering Color"
-      Color {
-        R: 0.269999981
-        G: 1
-        B: 0.985496938
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15375061858317246409
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
-  Id: 6270890929234904580
-  Name: "Advanced Bloom Post Process"
-  Transform {
-    Location {
-      X: -2632.51221
-      Y: 4883.83789
-      Z: 146.194016
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 742251370243099032
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 1.57360888
-    }
-    Overrides {
-      Name: "bp:Threshold"
-      Float: -0.191588581
-    }
-    Overrides {
-      Name: "bp:Size Scale"
-      Float: 3.36379433
-    }
-    Overrides {
-      Name: "bp:Color A"
-      Color {
-        G: 0.250463337
-        B: 0.62
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Color B"
-      Color {
-        R: 0.76
-        B: 0.709668577
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Color C"
-      Color {
-        R: 0.0799999833
-        G: 1
-        B: 0.561324716
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 9396694648450602937
-    }
-    TeamSettings {
     }
   }
 }
